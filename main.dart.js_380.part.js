@@ -1,0 +1,85 @@
+((a,b,c)=>{a[b]=a[b]||{}
+a[b][c]=a[b][c]||[]
+a[b][c].push({p:"main.dart.js_380",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
+$__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,B,D,C={
+Ak(d,e){return C.ePT(d,e)},
+ePT(d,e){var x=0,w=A.i(y.g),v,u=2,t,s,r,q,p,o,n,m,l,k
+var $async$Ak=A.j(function(f,g){if(f===1){t=g
+x=u}while(true)switch(x){case 0:u=4
+s=A.aO("GET",A.ac($.ag+"/Sale/GetRecordCurrentStockIWH?productId="+d+"&salemanId="+e,0,null))
+x=7
+return A.c(J.aP(s),$async$Ak)
+case 7:r=g
+x=8
+return A.c(B.F.af(r.w),$async$Ak)
+case 8:q=g
+if(r.b===200){p=B.k.C(0,q,null)
+o=D.a3c(J.B(p,"data"))
+v=new A.x(o,1,null,null,y.g)
+x=1
+break}m=A.Z(B.k.C(0,q,null),y.h)
+v=m
+x=1
+break
+u=2
+x=6
+break
+case 4:u=3
+k=t
+n=A.W(k)
+m=J.u(n)
+v=new A.x(null,0,m,null,y.g)
+x=1
+break
+x=6
+break
+case 3:x=2
+break
+case 6:case 1:return A.f(v,w)
+case 2:return A.e(t,w)}})
+return A.h($async$Ak,w)},
+vc(d){return C.ePU(d)},
+ePU(d){var x=0,w=A.i(y.n),v,u=2,t,s,r,q,p,o,n,m,l,k
+var $async$vc=A.j(function(e,f){if(e===1){t=f
+x=u}while(true)switch(x){case 0:u=4
+s=A.aO("GET",A.ac($.ag+"/Sale/GetRecordCurrentStockWH?productId="+d,0,null))
+x=7
+return A.c(J.aP(s),$async$vc)
+case 7:r=f
+x=8
+return A.c(B.F.af(r.w),$async$vc)
+case 8:q=f
+if(r.b===200){p=B.k.C(0,q,null)
+o=D.a3c(J.B(J.B(p,"data"),0))
+v=new A.x(o,1,null,null,y.n)
+x=1
+break}m=A.Z(B.k.C(0,q,null),y.p)
+v=m
+x=1
+break
+u=2
+x=6
+break
+case 4:u=3
+k=t
+n=A.W(k)
+m=J.u(n)
+v=new A.x(null,0,m,null,y.n)
+x=1
+break
+x=6
+break
+case 3:x=2
+break
+case 6:case 1:return A.f(v,w)
+case 2:return A.e(t,w)}})
+return A.h($async$vc,w)}}
+J=c[1]
+A=c[0]
+B=c[2]
+D=c[346]
+C=a.updateHolder(c[296],C)
+var z=a.updateTypes([])
+var y={g:A.E("x<by>"),n:A.E("x<by?>"),h:A.E("by"),p:A.E("by?")}};
+((a,b)=>{a[b]=a.current
+a.eventLog.push({p:"main.dart.js_380",e:"endPart",h:b})})($__dart_deferred_initializers__,"r0ullAvJLhB7+7X9js8YoOaE8xw=");
