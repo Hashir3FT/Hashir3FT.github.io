@@ -1,19 +1,48 @@
 ((a,b,c)=>{a[b]=a[b]||{}
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_931",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
-$__dart_deferred_initializers__.current=function(a,b,c,$){var J,B,A={
-eWy(d){var x=J.aK(d),w=x.i(d,"DepartmentID")
-x=x.i(d,"DepartmentTitle")
-return new A.bg(w,x==null?"":x)},
-bg:function bg(d,e){this.a=d
-this.b=e}}
+$__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,C,D,E,B={
+r1(d){return B.eWB(d)},
+eWB(d){var x=0,w=A.i(y.c),v,u=2,t,s,r,q,p,o,n,m
+var $async$r1=A.j(function(e,f){if(e===1){t=f
+x=u}while(true)switch(x){case 0:u=4
+s=A.ad($.ah+"/Payroll/GetDeparmentById?departmentId="+d,0,null)
+x=7
+return A.c(D.cM(s,null),$async$r1)
+case 7:r=f
+if(r.b===200){o=r
+q=C.k.C(0,A.aQ(J.A(A.aP(o.e).c.a,"charset")).a9(0,o.w),null)
+o=E.f3u(J.A(q,"data"))
+v=new A.x(o,1,null,null,y.c)
+x=1
+break}else{o=r
+o=A.W(C.k.C(0,A.aQ(J.A(A.aP(o.e).c.a,"charset")).a9(0,o.w),null),y.h)
+v=o
+x=1
+break}u=2
+x=6
+break
+case 4:u=3
+m=t
+p=A.U(m)
+o=J.u(p)
+v=new A.x(null,0,o,null,y.c)
+x=1
+break
+x=6
+break
+case 3:x=2
+break
+case 6:case 1:return A.f(v,w)
+case 2:return A.e(t,w)}})
+return A.h($async$r1,w)}}
 J=c[1]
-B=c[0]
-A=a.updateHolder(c[328],A)
-A.bg.prototype={
-b_(){return B.a8(["DepartmentID",this.a,"DepartmentTitle",this.b],y.g,y.b)}}
-var z=a.updateTypes([]);(function inheritance(){var x=a.inherit
-x(A.bg,B.af)})()
-var y={g:B.E("d"),b:B.E("@")}};
+A=c[0]
+C=c[2]
+D=c[355]
+E=c[328]
+B=a.updateHolder(c[302],B)
+var z=a.updateTypes([])
+var y={c:A.H("x<bd>"),h:A.H("bd")}};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_931",e:"endPart",h:b})})($__dart_deferred_initializers__,"aNotla3R9YUJDlhL/e+FaHFZxPI=");
+a.eventLog.push({p:"main.dart.js_931",e:"endPart",h:b})})($__dart_deferred_initializers__,"2QWEZp1uBMU7qaCaa4/nv5iCsFQ=");

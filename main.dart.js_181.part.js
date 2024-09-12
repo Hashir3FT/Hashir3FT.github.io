@@ -1,114 +1,201 @@
 ((a,b,c)=>{a[b]=a[b]||{}
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_181",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
-$__dart_deferred_initializers__.current=function(a,b,c,$){var B,A={
-ej(d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2,c3,c4,c5,c6,c7,c8,c9,d0,d1,d2,d3,d4,d5,d6,d7,d8,d9,e0,e1,e2,e3,e4,e5,e6,e7,e8,e9,f0,f1,f2,f3){return new A.by(b6,j,b7,f2,d,e7,e6,b9,b8,a0,b2,e5,f3,m,f1,n,f0,c5,d7,b5,a5,a6,a3,e,d3,o,f,a9,a8,e8,c7,d9,c2,d4,c4,d6,c6,d8,d1,c8,c9,e0,e1,c0,x,d2,c1,a4,a2,e2,e4,b1,e3,g,a1,c3,d5,d0,l,w,r,s,p,q,u,b3,a7,v,b4,t,h,b0,e9,i)},
-by:function by(d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2,c3,c4,c5,c6,c7,c8,c9,d0,d1,d2,d3,d4,d5,d6,d7,d8,d9,e0,e1,e2,e3,e4,e5,e6,e7,e8,e9,f0,f1,f2){var _=this
-_.a=d
-_.b=e
-_.c=f
-_.d=g
-_.e=h
-_.f=i
-_.r=j
-_.w=k
-_.x=l
-_.y=m
-_.z=n
-_.Q=o
-_.as=p
-_.at=q
-_.ax=r
-_.ay=s
-_.ch=t
-_.CW=u
-_.cx=v
-_.cy=w
-_.db=x
-_.dx=a0
-_.dy=a1
-_.fr=a2
-_.fx=a3
-_.fy=a4
-_.go=a5
-_.id=a6
-_.k1=a7
-_.k2=a8
-_.k3=a9
-_.k4=b0
-_.ok=b1
-_.p1=b2
-_.p2=b3
-_.p3=b4
-_.p4=b5
-_.R8=b6
-_.RG=b7
-_.rx=b8
-_.ry=b9
-_.to=c0
-_.x1=c1
-_.xr=c2
-_.y1=c3
-_.y2=c4
-_.aq=c5
-_.a_=c6
-_.ab=c7
-_.ar=c8
-_.aj=c9
-_.aE=d0
-_.u=d1
-_.B=d2
-_.P=d3
-_.T=d4
-_.U=d5
-_.ak=d6
-_.ap=d7
-_.aF=d8
-_.az=d9
-_.bS=e0
-_.aQ=e1
-_.bQ=e2
-_.aZ=e3
-_.b5=e4
-_.S=e5
-_.bj=e6
-_.ae=e7
-_.bo=e8
-_.aT=e9
-_.bN=f0
-_.ce=f1
-_.cm=f2},
-bq1:function bq1(){},
-bq2:function bq2(){},
-bq3:function bq3(){}}
+$__dart_deferred_initializers__.current=function(a,b,c,$){var J,B,C,A={
+a3m(g0){var x,w,v,u,t,s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2,c3,c4,c5,c6,c7,c8,c9,d0,d1,d2,d3,d4,d5,d6,d7,d8,d9,e0,e1,e2,e3,e4,e5,e6,e7,e8,e9,f0,f1,f2,f3="ListPackings",f4="ListSizes",f5="ListColors",f6=[],f7=[],f8=[],f9=J.aI(g0)
+if(f9.i(g0,f3)!=null)f6=y.i.a(f9.i(g0,f3))
+if(f9.i(g0,f4)!=null)f7=y.i.a(f9.i(g0,f4))
+if(f9.i(g0,f5)!=null)f7=y.i.a(f9.i(g0,f5))
+x=f9.i(g0,"ProductID")
+if(x==null)x=""
+w=f9.i(g0,"CompanyID")
+if(w==null)w=""
+v=f9.i(g0,"ProductName")
+if(v==null)v=""
+u=f9.i(g0,"UrduName")
+if(u==null)u=""
+t=f9.i(g0,"BarCode")
+if(t==null)t=""
+s=f9.i(g0,"ShortCode")
+if(s==null)s=""
+r=f9.i(g0,"ShelfName")
+if(r==null)r=""
+q=f9.i(g0,"ProductNameUrdu")
+if(q==null)q=""
+p=f9.i(g0,"ProductNameShort")
+if(p==null)p=""
+o=f9.i(g0,"ManualCode")
+if(o==null)o=""
+n=f9.i(g0,"Point")
+if(n==null)n=""
+m=f9.i(g0,"Shade")
+if(m==null)m=""
+l=f9.i(g0,"ExpiryDate")
+if(l==null)l=""
+k=f9.i(g0,"GroupId")
+if(k==null)k=0
+j=f9.i(g0,"SubGroupId")
+if(j==null)j=0
+i=f9.i(g0,"UnitId")
+if(i==null)i=""
+h=f9.i(g0,"PurPackingId")
+if(h==null)h=0
+g=f9.i(g0,"SalPackingId")
+if(g==null)g=0
+f=f9.i(g0,"PriceControlId")
+if(f==null)f=0
+e=f9.i(g0,"MinStockLevel")
+if(e==null)e=0
+d=f9.i(g0,"MinStockPackId")
+if(d==null)d=0
+a0=f9.i(g0,"MaxStockLevel")
+if(a0==null)a0=0
+a1=f9.i(g0,"BrandID")
+if(a1==null)a1=0
+a2=f9.i(g0,"VendorID")
+if(a2==null)a2=""
+a3=f9.i(g0,"STSchID")
+if(a3==null)a3=0
+a4=f9.i(g0,"HSCodeID")
+if(a4==null)a4=0
+a5=f9.i(g0,"CategoryID")
+if(a5==null)a5=0
+a6=f9.i(g0,"Size")
+if(a6==null)a6=0
+a7=f9.i(g0,"PurchasePrice")
+if(a7==null)a7=0
+a8=f9.i(g0,"SalePrice")
+if(a8==null)a8=0
+a9=f9.i(g0,"PurDiscRatio")
+if(a9==null)a9=0
+b0=f9.i(g0,"SaleDiscRatio")
+if(b0==null)b0=0
+b1=f9.i(g0,"PurDiscValue")
+if(b1==null)b1=0
+b2=f9.i(g0,"SaleDiscValue")
+if(b2==null)b2=0
+b3=f9.i(g0,"PurSTRatio")
+if(b3==null)b3=0
+b4=f9.i(g0,"SaleSTRatio")
+if(b4==null)b4=0
+b5=f9.i(g0,"RetailPrice")
+if(b5==null)b5=0
+b6=f9.i(g0,"PurchasePrice2")
+if(b6==null)b6=0
+b7=f9.i(g0,"PurchasePrice3")
+if(b7==null)b7=0
+b8=f9.i(g0,"SalePrice2")
+if(b8==null)b8=0
+b9=f9.i(g0,"SalePrice3")
+if(b9==null)b9=0
+c0=f9.i(g0,"ProductWeight")
+if(c0==null)c0=0
+c1=f9.i(g0,"LabourCharges")
+if(c1==null)c1=0
+c2=f9.i(g0,"RPTaxRate")
+if(c2==null)c2=0
+c3=f9.i(g0,"ProductWeight2")
+if(c3==null)c3=0
+c4=f9.i(g0,"MinSalePrice")
+if(c4==null)c4=0
+c5=f9.i(g0,"MaxSalePrice")
+if(c5==null)c5=0
+c6=f9.i(g0,"SaleWHTRatio")
+if(c6==null)c6=0
+c7=f9.i(g0,"Scheme")
+if(c7==null)c7=0
+c8=f9.i(g0,"PerPoint")
+if(c8==null)c8=0
+c9=f9.i(g0,"SaleWHTRatio1")
+if(c9==null)c9=0
+d0=f9.i(g0,"CategoryRate")
+if(d0==null)d0=0
+d1=f9.i(g0,"MaxRetailPrice")
+if(d1==null)d1=0
+d2=f9.i(g0,"IsValueB4Ratio")
+if(d2==null)d2=!1
+d3=f9.i(g0,"IsFTaxExempted")
+if(d3==null)d3=!1
+d4=f9.i(g0,"IsFTaxOnRP")
+if(d4==null)d4=!1
+d5=f9.i(g0,"IsActive")
+if(d5==null)d5=!1
+d6=f9.i(g0,"IsBatch")
+if(d6==null)d6=!1
+d7=f9.i(g0,"IsInventory")
+if(d7==null)d7=!1
+d8=f9.i(g0,"PriceChangeable")
+if(d8==null)d8=!1
+d9=f9.i(g0,"NoBatch")
+if(d9==null)d9=!1
+e0=f9.i(g0,"IsInventory1")
+if(e0==null)e0=!1
+e1=f9.i(g0,"PriceChangeable1")
+if(e1==null)e1=!1
+e2=f9.i(g0,"IsGST")
+if(e2==null)e2=!1
+e3=f9.i(g0,"ChkUpdateOpening")
+if(e3==null)e3=!1
+e4=f9.i(g0,"QtyLose")
+e4=A.eHs(e4==null?0:e4)
+e5=f9.i(g0,"QtyPack")
+e5=A.eHs(e5==null?0:e5)
+e6=f9.i(g0,"PurDiscValueP")
+if(e6==null)e6=0
+e7=f9.i(g0,"SaleDiscValueP")
+if(e7==null)e7=0
+e8=f9.i(g0,"Cost")
+if(e8==null)e8=0
+e9=f9.i(g0,"Qty")
+if(e9==null)e9=0
+f9=f9.i(g0,"CStock")
+if(f9==null)f9=0
+f0=J.cw(f6,new A.bx1(),y.c)
+f0=B.a4(f0,!0,f0.$ti.k("aA.E"))
+f1=J.cw(f7,new A.bx2(),y.a)
+f1=B.a4(f1,!0,f1.$ti.k("aA.E"))
+f2=B.aq(f8).k("ak<1,Eb>")
+return D.em(t,a1,a5,d0,e3,B.a4(new B.ak(f8,new A.bx3(),f2),!0,f2.k("aA.E")),w,e8,f9,l,k,a4,d5,d6,d3,d4,e2,d7,e0,d2,c1,o,d1,c5,a0,c4,e,d,d9,e4,e5,f0,c8,n,d8,e1,f,x,v,p,q,c0,c3,a9,e7,b1,h,b3,a7,b6,b7,e9,b5,c2,a3,b0,e6,b2,g,b4,a8,b8,b9,c6,c9,c7,m,r,s,a6,f1,j,i,u,a2)},
+eHs(d){if(typeof d=="number")return C.h.Z(d)
+else if(B.mr(d))return d},
+bx1:function bx1(){},
+bx2:function bx2(){},
+bx3:function bx3(){},
+Ek:function Ek(d,e){this.a=d
+this.c=e},
+Eb:function Eb(d,e){this.a=d
+this.c=e}},D,E
+J=c[1]
 B=c[0]
-A=a.updateHolder(c[347],A)
-A.by.prototype={
-b_(){var x,w,v,u=this,t=u.a,s=u.b,r=u.c,q=u.e,p=u.r,o=u.x,n=u.z,m=u.ay,l=u.ch,k=u.CW,j=u.cx,i=u.db,h=u.dy,g=u.as,f=u.k3,e=u.k4,d=u.ok,a0=u.p2,a1=u.p3,a2=u.p4,a3=u.R8,a4=u.RG,a5=u.rx,a6=u.ry,a7=u.to,a8=u.x1,a9=u.xr,b0=u.y1,b1=u.y2,b2=u.aq,b3=u.a_,b4=u.ab,b5=u.ar,b6=u.P,b7=u.aF,b8=u.aQ,b9=u.bQ,c0=u.aZ,c1=u.ae,c2=u.bo,c3=u.id,c4=u.k1,c5=u.U,c6=u.T,c7=u.bN
-if(c7==null)c7=null
-else{x=B.ar(c7).j("ak<1,bk<d,@>>")
-x=B.a5(new B.ak(c7,new A.bq1(),x),!0,x.j("az.E"))
-c7=x}x=u.ce
-if(x==null)x=null
-else{w=B.ar(x).j("ak<1,bk<d,@>>")
-w=B.a5(new B.ak(x,new A.bq2(),w),!0,w.j("az.E"))
-x=w}w=u.cm
-if(w==null)w=null
-else{v=B.ar(w).j("ak<1,bk<d,@>>")
-v=B.a5(new B.ak(w,new A.bq3(),v),!0,v.j("az.E"))
-w=v}return B.a8(["ProductID",t,"CompanyID",s,"ProductName",r,"UrduName",u.d,"BarCode",q,"ShortCode",u.f,"ShelfName",p,"ProductNameUrdu",u.w,"ProductNameShort",o,"ManualCode",u.y,"Point",n,"Shade",u.Q,"ExpiryDate",u.at,"GroupId",m,"SubGroupId",l,"UnitId",u.ax,"PurPackingId",k,"SalPackingId",j,"PriceControlId",u.cy,"MinStockLevel",i,"MinStockPackId",u.dx,"MaxStockLevel",h,"BrandID",u.fr,"VendorID",g,"STSchID",u.fx,"HSCodeID",u.fy,"CategoryID",u.go,"Size",u.k2,"PurchasePrice",f,"SalePrice",e,"PurDiscRatio",d,"SaleDiscRatio",u.p1,"PurDiscValue",a0,"SalDiscValue",a1,"PurSTRatio",a2,"SaleSTRatio",a3,"RetailPrice",a4,"PurchasePrice2",a5,"PurchasePrice3",a6,"SalePrice2",a7,"SalePrice3",a8,"ProductWeight",a9,"LabourCharges",b0,"RPTaxRate",b1,"ProductWeight2",b2,"MinSalePrice",b3,"MaxSalePrice",b4,"SaleWHTRatio",b5,"Scheme",u.aj,"PerPoint",u.aE,"SaleWHTRatio1",u.u,"CategoryRate",u.B,"MaxRetailPrice",b6,"IsValueB4Ratio",b7,"IsFTaxExempted",u.az,"IsFTaxOnRP",u.bS,"IsActive",b8,"IsBatch",b9,"IsInventory",c0,"PriceChangeable",c1,"NoBatch",u.S,"IsInventory1",u.bj,"PriceChangeable1",c1,"isGst",c2,"ChkUpdateOpening",u.aT,"QtyPack",c3,"QtyLose",c4,"SaleDiscValueP",c5,"PurDiscValueP",c6,"ListPackings",c7,"ListSizes",x,"ListColors",w],y.g,y.b)}}
-var z=a.updateTypes(["bk<d,@>(cN)","bk<d,@>(Ej)","bk<d,@>(Ea)"])
-A.bq1.prototype={
-$1(d){return d.b_()},
+C=c[2]
+A=a.updateHolder(c[346],A)
+D=c[347]
+E=c[348]
+A.Ek.prototype={
+b1(){return B.a8(["ProductId",this.a,"SizeID",this.c],y.g,y.b)}}
+A.Eb.prototype={
+b1(){return B.a8(["ProductId",this.a,"ColorID",this.c],y.g,y.b)}}
+var z=a.updateTypes(["cR(@)","Ek(@)","Eb(@)"])
+A.bx1.prototype={
+$1(d){return E.ewA(d)},
 $S:z+0}
-A.bq2.prototype={
-$1(d){return d.b_()},
+A.bx2.prototype={
+$1(d){var x=J.aI(d),w=x.i(d,"ProductId")
+if(w==null)w=""
+x.i(d,"SizeName")
+x=x.i(d,"SizeID")
+return new A.Ek(w,x==null?0:x)},
 $S:z+1}
-A.bq3.prototype={
-$1(d){return d.b_()},
-$S:z+2};(function inheritance(){var x=a.inherit,w=a.inheritMany
-x(A.by,B.af)
-w(B.b2,[A.bq1,A.bq2,A.bq3])})()
-var y={g:B.E("d"),b:B.E("@")}};
+A.bx3.prototype={
+$1(d){var x,w=J.aI(d),v=w.i(d,"ProductId")
+if(v==null)v=""
+x=w.i(d,"ColorID")
+if(x==null)x=0
+w.i(d,"ColorName")
+return new A.Eb(v,x)},
+$S:z+2};(function inheritance(){var x=a.inheritMany
+x(B.b0,[A.bx1,A.bx2,A.bx3])
+x(B.ag,[A.Ek,A.Eb])})()
+var y={i:B.H("q<@>"),c:B.H("cR"),a:B.H("Ek"),g:B.H("d"),b:B.H("@")}};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_181",e:"endPart",h:b})})($__dart_deferred_initializers__,"w7IYJ+B09Z4JGtmz1KClRUVb+ao=");
+a.eventLog.push({p:"main.dart.js_181",e:"endPart",h:b})})($__dart_deferred_initializers__,"gbMwr5qJ12JC2rVOXx5JxLjE1lE=");

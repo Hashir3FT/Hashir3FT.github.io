@@ -1,204 +1,253 @@
 ((a,b,c)=>{a[b]=a[b]||{}
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_430",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
-$__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,C,B={
-ezX(c4){var x,w,v,u,t,s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1=" ",c2=J.aK(c4),c3=c2.i(c4,"Date")
-if(c3==null)c3=c1
-x=c2.i(c4,"NetValue")
+$__dart_deferred_initializers__.current=function(a,b,c,$){var B,A={
+eHx(d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2){return new A.k8(b4,b3,b0,j,e,u,a8,c1,g,f,a3,a9,a5,b7,i,s,b2,x,a7,q,b9,t,h,b1,p,b8,n,o,b5,b6,l,m,v,w,a6,r,a2,c0,d,a0,k,c2,a1,a4)},
+eHw(d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8){return new A.mQ(a7,a5,a6,a2,a1,v,a9,a8,e,a4,i,k,j,x,b1,b2,t,s,p,b7,b6,b5,b4,m,l,a3,q,o,g,a0,r,h,d,n,b8,u,b3,f,b0,w)},
+k8:function k8(d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2){var _=this
+_.a=d
+_.b=e
+_.c=f
+_.d=g
+_.e=h
+_.f=i
+_.r=j
+_.w=k
+_.x=l
+_.y=m
+_.z=n
+_.Q=o
+_.as=p
+_.at=q
+_.ax=r
+_.ay=s
+_.ch=t
+_.CW=u
+_.cx=v
+_.cy=w
+_.db=x
+_.dx=a0
+_.dy=a1
+_.fr=a2
+_.fx=a3
+_.fy=a4
+_.go=a5
+_.id=a6
+_.k1=a7
+_.k2=a8
+_.k3=a9
+_.k4=b0
+_.ok=b1
+_.p1=b2
+_.p2=b3
+_.p3=b4
+_.p4=b5
+_.R8=b6
+_.RG=b7
+_.rx=b8
+_.ry=b9
+_.to=c0
+_.x1=c1
+_.x2=c2},
+bxA:function bxA(){},
+mQ:function mQ(d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8){var _=this
+_.a=d
+_.b=e
+_.c=f
+_.d=g
+_.e=h
+_.f=i
+_.r=j
+_.w=k
+_.x=l
+_.y=m
+_.z=n
+_.Q=o
+_.as=p
+_.at=q
+_.ax=r
+_.ay=s
+_.ch=t
+_.CW=u
+_.cx=v
+_.cy=w
+_.db=x
+_.dx=a0
+_.dy=a1
+_.fr=a2
+_.fx=a3
+_.fy=a4
+_.go=a5
+_.id=a6
+_.k1=a7
+_.k2=a8
+_.k3=a9
+_.k4=b0
+_.ok=b1
+_.p1=b2
+_.p2=b3
+_.p3=b4
+_.p4=b5
+_.R8=b6
+_.RG=b7
+_.ry=b8}}
+B=c[0]
+A=a.updateHolder(c[269],A)
+A.k8.prototype={
+b1(){var x,w,v,u,t,s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8=this,b9=" ",c0=b8.d
+if(c0==null)c0=b9
+x=b8.p2
 if(x==null)x=0
-w=c2.i(c4,"SpecialDiscount")
+w=b8.at
 if(w==null)w=0
-v=c2.i(c4,"Narration")
-if(v==null)v=c1
-u=c2.i(c4,"DueDate")
-if(u==null)u=c1
-t=c2.i(c4,"GSTax")
+v=b8.as
+if(v==null)v=b9
+u=b8.ry
+if(u==null)u=b9
+t=b8.ay
 if(t==null)t=0
-s=c2.i(c4,"IsUploaded")
-if(s==null)s=!1
-r=c2.i(c4,"CustomerId")
-if(r==null)r=""
-q=c2.i(c4,"BillNo")
-if(q==null)q=""
-p=c2.i(c4,"BillDate")
-if(p==null)p=c1
-o=c2.i(c4,"IDOffice")
-n=c2.i(c4,"PaidAmount")
+s=b8.ax
+if(s==null)s=b9
+r=b8.x
+if(r==null)r=b9
+q=b8.y
+if(q==null)q=b9
+p=b8.Q
+if(p==null)p=0
+o=b8.RG
+if(o==null)o=b9
+n=b8.e
 if(n==null)n=0
-m=c2.i(c4,"AccountNo")
-if(m==null)m=c1
-l=c2.i(c4,"Amount")
+m=b8.dy
+if(m==null)m=b9
+l=b8.k3
 if(l==null)l=0
-k=c2.i(c4,"BiltyNo")
-if(k==null)k=c1
-j=c2.i(c4,"ExtraSaleTaxVal")
+k=b8.k4
+if(k==null)k=0
+j=b8.fx
 if(j==null)j=0
-i=c2.i(c4,"ExtraSaleTaxPer")
+i=b8.cy
 if(i==null)i=0
-h=c2.i(c4,"FinalBalance")
+h=b8.p3
 if(h==null)h=0
-g=c2.i(c4,"Freight2")
+g=b8.go
 if(g==null)g=0
-f=c2.i(c4,"FrmExp")
+f=b8.id
 if(f==null)f=0
-e=c2.i(c4,"FTaxPer")
+e=b8.ok
 if(e==null)e=0
-d=c2.i(c4,"FTaxValue")
+d=b8.p1
 if(d==null)d=0
-a0=c2.i(c4,"IncomeTaxPer")
+a0=b8.CW
 if(a0==null)a0=0
-a1=c2.i(c4,"IncomeTaxVal")
+a1=b8.dx
 if(a1==null)a1=0
-a2=c2.i(c4,"InvOfferFTax")
+a2=b8.cx
 if(a2==null)a2=0
-a3=c2.i(c4,"IsFinalized")
-if(a3==null)a3=!1
-a4=c2.i(c4,"IsPosted")
-if(a4==null)a4=!1
-a5=c2.i(c4,"ITax2")
-if(a5==null)a5=0
-a6=c2.i(c4,"OfferID")
+a3=b8.r
+if(a3==null)a3=0
+a4=b8.fr
+if(a4==null)a4=0
+a5=b8.b
+if(a5==null)a5=b9
+a6=b8.a
 if(a6==null)a6=0
-a7=c2.i(c4,"OfficeID")
+a7=b8.ch
 if(a7==null)a7=0
-a8=c2.i(c4,"PreviousBal")
+a8=b8.k1
 if(a8==null)a8=0
-a9=c2.i(c4,"PurchaseDate")
-b0=c2.i(c4,"PurchaseID")
-if(b0==null)b0=c1
-b1=c2.i(c4,"PurOrderID")
+a9=b8.k2
+if(a9==null)a9=0
+b0=b8.fy
+if(b0==null)b0=0
+b1=b8.db
 if(b1==null)b1=0
-b2=c2.i(c4,"SaleTaxPer")
-if(b2==null)b2=0
-b3=c2.i(c4,"SaleTaxVal")
-if(b3==null)b3=0
-b4=c2.i(c4,"TradeDiscount")
+b2=b8.R8
+b3=b8.w
+if(b3==null)b3=b9
+b4=b8.to
 if(b4==null)b4=0
-b5=c2.i(c4,"Unloading2")
-if(b5==null)b5=0
-b6=c2.i(c4,"UserID")
-if(b6==null)b6=0
-b7=c2.i(c4,"VendorID")
-if(b7==null)b7=c1
-b8=c2.i(c4,"WHTaxPer ")
-if(b8==null)b8=0
-b9=c2.i(c4,"PartyName")
-if(b9==null)b9=c1
-c0=c2.i(c4,"IsMultiInvoice")
-if(c0==null)c0=!1
-c2=y.d.a(c2.i(c4,"ListBody"))
-if(c2==null)c2=null
-else{c2=J.cw(c2,new B.bqw(),y.u)
-c2=A.a5(c2,!0,c2.$ti.j("az.E"))}return D.ezW(m,l,p,q,k,r,c3,u,j,i,e,d,h,g,f,t,a5,o,a0,a1,a2,a3,c0,a4,s,c2,v,x,a6,a7,n,b9,a8,b1,a9,b0,b2,b3,w,b4,b5,b6,b7,b8)},
-bqw:function bqw(){},
-MO(d,e,f,g,h,i,j,k){return B.eO6(d,e,f,g,h,i,!1,k)},
-eO6(d,e,f,g,h,i,a0,a1){var x=0,w=A.i(y.y),v,u=2,t,s,r,q,p,o,n,m,l,k,j
-var $async$MO=A.j(function(a2,a3){if(a2===1){t=a3
-x=u}while(true)switch(x){case 0:u=4
-s=A.aO("GET",A.ac($.ag+"/Purchase/GetAllPurchaseInvoices?fromDate="+d+"&toDate="+e+"&filter="+h+"&vendor="+a1+"&billNo="+f+"&officeId="+i+"&chkAllInvoices="+g+"&vIsPGP=false",0,null))
-x=7
-return A.c(J.aP(s),$async$MO)
-case 7:r=a3
-x=8
-return A.c(C.F.af(r.w),$async$MO)
-case 8:q=a3
-x=r.b===200?9:10
-break
-case 9:l=C.k.C(0,q,null)
-x=11
-return A.c(y.i.b(l)?l:A.bU(l,y.b),$async$MO)
-case 11:p=a3
-o=A.b([],y.h)
-for(l=J.aZ(J.B(p,"data"));l.L();){n=l.ga1(l)
-J.c9(o,B.ezX(n))}v=new A.x(o,1,null,null,y.y)
-x=1
-break
-case 10:l=A.Z(C.k.C(0,q,null),y.n)
-v=l
-x=1
-break
-u=2
-x=6
-break
-case 4:u=3
-j=t
-m=A.W(j)
-l=J.u(m)
-v=new A.x(null,0,l,null,y.y)
-x=1
-break
-x=6
-break
-case 3:x=2
-break
-case 6:case 1:return A.f(v,w)
-case 2:return A.e(t,w)}})
-return A.h($async$MO,w)},
-Hm(d,e){return B.ePO(d,!1)},
-ePO(d,e){var x=0,w=A.i(y.z),v,u=2,t,s,r,q,p,o,n,m,l
-var $async$Hm=A.j(function(f,g){if(f===1){t=g
-x=u}while(true)switch(x){case 0:u=4
-s=A.aO("GET",A.ac($.ag+"/Purchase/GetPurchaseInvoiceById?invoiceId="+d+"&isPGP=false",0,null))
-x=7
-return A.c(J.aP(s),$async$Hm)
-case 7:r=g
-x=8
-return A.c(C.F.af(r.w),$async$Hm)
-case 8:q=g
-x=r.b===200?9:10
-break
-case 9:n=C.k.C(0,q,null)
-x=11
-return A.c(y.i.b(n)?n:A.bU(n,y.b),$async$Hm)
-case 11:p=g
-n=B.ezX(J.B(p,"data"))
-v=new A.x(n,1,null,null,y.z)
-x=1
-break
-case 10:n=A.Z(C.k.C(0,q,null),y.b)
-v=n
-x=1
-break
-u=2
-x=6
-break
-case 4:u=3
-l=t
-o=A.W(l)
-n=J.u(o)
-v=new A.x(null,0,n,null,y.z)
-x=1
-break
-x=6
-break
-case 3:x=2
-break
-case 6:case 1:return A.f(v,w)
-case 2:return A.e(t,w)}})
-return A.h($async$Hm,w)}},D
-J=c[1]
-A=c[0]
-C=c[2]
-B=a.updateHolder(c[243],B)
-D=c[269]
-var z=a.updateTypes(["mK(@)"])
-B.bqw.prototype={
-$1(b8){var x,w,v,u,t,s,r,q,p,o,n,m=J.aK(b8),l=m.i(b8,"PurchaseId"),k=m.i(b8,"ProductId"),j=m.i(b8,"PackingId"),i=m.i(b8,"Multiplier"),h=m.i(b8,"QtyPack"),g=m.i(b8,"QtyLose"),f=m.i(b8,"BnsLose"),e=m.i(b8,"PricePack"),d=m.i(b8,"DiscRatio"),a0=m.i(b8,"DiscValPack"),a1=m.i(b8,"DiscValLose"),a2=m.i(b8,"OfferDiscount"),a3=m.i(b8,"STaxRatio"),a4=m.i(b8,"STaxValPack"),a5=m.i(b8,"IsValueB4Ratio"),a6=m.i(b8,"IsSTaxOnBns"),a7=m.i(b8,"IsFTaxExempted"),a8=m.i(b8,"TTLValue"),a9=m.i(b8,"TTLSTax"),b0=m.i(b8,"TTLFTax"),b1=m.i(b8,"TTITax"),b2=m.i(b8,"ExtraFTaxBns"),b3=m.i(b8,"ExtraSTaxBns"),b4=m.i(b8,"PerUnitCostLose"),b5=m.i(b8,"IsFreeProduct"),b6=m.i(b8,"IsDeleted"),b7=m.i(b8,"CustomerId")
-if(b7==null)b7=" "
-x=m.i(b8,"OfferID")
-w=m.i(b8,"IsOffered")
-v=m.i(b8,"Damage")
-u=m.i(b8,"BarCode")
-t=m.i(b8,"ITaxPer")
-s=m.i(b8,"ThanQty")
-r=m.i(b8,"Meters")
-q=m.i(b8,"SizeID")
-p=m.i(b8,"ColorID")
-o=m.i(b8,"PackingName")
-n=m.i(b8,"ProductName")
-return D.ezV(u,f,p,b7,v,d,a1,a0,b2,b3,t,b6,a7,b5,w,a6,a5,r,i,m.i(b8,"NetVal"),a2,x,j,o,b4,e,k,n,l,g,h,null,a3,a4,q,b1,b0,a9,a8,s)},
-$S:z+0};(function inheritance(){var x=a.inherit
-x(B.bqw,A.b2)})()
-var y={y:A.E("x<q<k6>>"),z:A.E("x<@>"),i:A.E("t<@>"),h:A.E("m<k6>"),n:A.E("q<k6>"),u:A.E("mK"),b:A.E("@"),d:A.E("q<@>?")}};
+b5=b8.c
+if(b5==null)b5=b9
+b6=b8.x2
+if(b6==null)b6=null
+else{b7=B.aq(b6).k("ak<1,bg<d,@>>")
+b7=B.a4(new B.ak(b6,new A.bxA(),b7),!0,b7.k("aA.E"))
+b6=b7}return B.a8(["Date",c0,"NetValue",x,"SpecialDiscount",w,"Narration",v,"DueDate",u,"GSTax",t,"IsUploaded",b8.z===!0,"CustomerId",s,"BillNo",r,"BillDate",q,"IDOffice",b8.f,"PaidAmount",p,"AccountNo",o,"Amount",n,"BiltyNo",m,"ExtraSaleTaxVal",l,"ExtraSaleTaxPer",k,"FinalBalance",j,"Freight2",i,"FrmExp",h,"FTaxPer",g,"FTaxValue",f,"IncomeTaxPer",e,"IncomeTaxVal",d,"InvOfferFTax",a0,"IsFinalized",b8.rx===!0,"IsPosted",b8.p4===!0,"ITax2",a1,"OfferID",a2,"OfficeID",a3,"PreviousBal",a4,"PurchaseDate",a5,"PurchaseID",a6,"PurOrderID",a7,"SaleTaxPer",a8,"SaleTaxVal",a9,"TradeDiscount",b0,"Unloading2",b1,"UserID",b2,"VendorID",b3,"WHTaxPer",b4,"PartyName",b5,"IsMultiInvoice",b8.x1===!0,"ListBody",b6],y.g,y.b)}}
+A.mQ.prototype={
+b1(){var x,w,v,u,t,s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1=this,b2=b1.a
+if(b2==null)b2=0
+x=b1.b
+if(x==null)x=" "
+w=b1.e
+if(w==null)w=0
+v=b1.f
+if(v==null)v=0
+u=b1.r
+if(u==null)u=0
+t=b1.w
+if(t==null)t=0
+s=b1.x
+if(s==null)s=0
+r=b1.y
+if(r==null)r=0
+q=b1.z
+if(q==null)q=0
+p=b1.Q
+if(p==null)p=0
+o=b1.as
+if(o==null)o=0
+n=b1.at
+if(n==null)n=0
+m=b1.ax
+if(m==null)m=0
+l=b1.ay
+if(l==null)l=0
+k=b1.cy
+if(k==null)k=0
+j=b1.db
+if(j==null)j=0
+i=b1.dx
+if(i==null)i=0
+h=b1.dy
+if(h==null)h=0
+g=b1.fr
+if(g==null)g=0
+f=b1.fx
+if(f==null)f=0
+e=b1.fy
+if(e==null)e=0
+d=b1.k1
+if(d==null)d=" "
+a0=b1.k2
+if(a0==null)a0=0
+a1=b1.k4
+if(a1==null)a1=0
+a2=b1.ok
+if(a2==null)a2=" "
+a3=b1.p1
+if(a3==null)a3=0
+a4=b1.p2
+if(a4==null)a4=0
+a5=b1.p3
+if(a5==null)a5=0
+a6=b1.p4
+if(a6==null)a6=0
+a7=b1.R8
+if(a7==null)a7=0
+a8=b1.d
+if(a8==null)a8=" "
+a9=b1.c
+if(a9==null)a9=" "
+b0=b1.ry
+if(b0==null)b0=0
+return B.a8(["PurchaseId",b2,"ProductId",x,"PackingId",w,"Multiplier",v,"QtyPack",u,"QtyLose",t,"BnsLose",s,"PricePack",r,"DiscRatio",q,"DiscValPack",p,"DiscValLose",o,"OfferDiscount",n,"STaxRatio",m,"STaxValPack",l,"IsValueB4Ratio",b1.ch===!0,"IsSTaxOnBns",b1.CW===!0,"IsFTaxExempted",b1.cx===!0,"TTLValue",k,"TTLSTax",j,"TTLFTax",i,"TTITax",h,"ExtraSTaxBns",g,"ExtraFTaxBns",f,"PerUnitCostLose",e,"IsFreeProduct",b1.go===!0,"IsDeleted",b1.id===!0,"CustomerId",d,"OfferID",a0,"IsOffered",b1.k3===!0,"Damage",a1,"BarCode",a2,"ITaxPer",a3,"ThanQty",a4,"Meters",a5,"SizeID",a6,"ColorID",a7,"PackingName",a8,"ProductName",a9,"NetVal",b0],y.g,y.b)}}
+var z=a.updateTypes(["bg<d,@>(mQ)"])
+A.bxA.prototype={
+$1(d){return d.b1()},
+$S:z+0};(function inheritance(){var x=a.inheritMany,w=a.inherit
+x(B.ag,[A.k8,A.mQ])
+w(A.bxA,B.b0)})()
+var y={g:B.H("d"),b:B.H("@")}};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_430",e:"endPart",h:b})})($__dart_deferred_initializers__,"5cMwgi7QSAmqURrsRZo2shERJWA=");
+a.eventLog.push({p:"main.dart.js_430",e:"endPart",h:b})})($__dart_deferred_initializers__,"P6StNEInIAtDAq0zPm+G/l/wQ68=");

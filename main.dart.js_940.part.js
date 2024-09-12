@@ -1,31 +1,51 @@
 ((a,b,c)=>{a[b]=a[b]||{}
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_940",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
-$__dart_deferred_initializers__.current=function(a,b,c,$){var J,B,C,A={
-eB1(d){var x="FromTime",w=J.aK(d),v=w.i(d,"ShiftID"),u=w.i(d,"ShiftTitle"),t=w.i(d,x)!=null?C.e0(w.i(d,x)):null,s=w.i(d,"ToTime")!=null?C.e0(w.i(d,"ToTime")):null
-return new A.bN(v,u,t,s,w.i(d,"isOverLab"),w.i(d,"FromBeforeMin"),w.i(d,"FromAfterMin"),w.i(d,"ToBeforeMin"),w.i(d,"ToAfterMin"))},
-bN:function bN(d,e,f,g,h,i,j,k,l){var _=this
-_.a=d
-_.b=e
-_.c=f
-_.d=g
-_.e=h
-_.f=i
-_.r=j
-_.w=k
-_.x=l}}
+$__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,C,D,E,B={
+nS(){var x=""
+return B.eXY()},
+eXY(){var x=0,w=A.i(y.c),v,u=2,t,s,r,q,p,o,n,m,l,k,j
+var $async$nS=A.j(function(d,e){if(d===1){t=e
+x=u}while(true)switch(x){case 0:k=""
+u=4
+s=A.ad($.ah+"/Payroll/GetShifts?vWhere="+A.p(k),0,null)
+x=7
+return A.c(D.cM(s,null),$async$nS)
+case 7:r=e
+if(r.b===200){m=r
+q=C.k.C(0,A.aQ(J.A(A.aP(m.e).c.a,"charset")).a9(0,m.w),null)
+p=A.b([],y.i)
+for(m=J.aZ(J.A(q,"data"));m.N();){o=m.ga1(m)
+J.cd(p,E.eIH(o))}v=new A.x(p,1,null,null,y.c)
+x=1
+break}else{m=r
+m=A.W(C.k.C(0,A.aQ(J.A(A.aP(m.e).c.a,"charset")).a9(0,m.w),null),y.b)
+v=new A.x(null,0,m.d,null,y.c)
+x=1
+break}u=2
+x=6
+break
+case 4:u=3
+j=t
+n=A.U(j)
+m=J.u(n)
+v=new A.x(null,0,m,null,y.c)
+x=1
+break
+x=6
+break
+case 3:x=2
+break
+case 6:case 1:return A.f(v,w)
+case 2:return A.e(t,w)}})
+return A.h($async$nS,w)}}
 J=c[1]
-B=c[0]
-C=c[372]
-A=a.updateHolder(c[323],A)
-A.bN.prototype={
-b_(){var x,w=this,v=w.c
-v=v==null?null:v.kU()
-x=w.d
-x=x==null?null:x.kU()
-return B.a8(["ShiftID",w.a,"ShiftTitle",w.b,"FromTIme",v,"ToTime",x,"isOverLab",w.e,"FromBeforeMin",w.f,"FromAfterMin",w.r,"ToBeforeMin",w.w,"ToAfterMin",w.x],y.g,y.b)}}
-var z=a.updateTypes([]);(function inheritance(){var x=a.inherit
-x(A.bN,B.af)})()
-var y={g:B.E("d"),b:B.E("@")}};
+A=c[0]
+C=c[2]
+D=c[355]
+E=c[323]
+B=a.updateHolder(c[311],B)
+var z=a.updateTypes([])
+var y={c:A.H("x<q<bM>>"),i:A.H("m<bM>"),b:A.H("@")}};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_940",e:"endPart",h:b})})($__dart_deferred_initializers__,"Hi7x78oOcqJ6St3gZrhRcDtTFr4=");
+a.eventLog.push({p:"main.dart.js_940",e:"endPart",h:b})})($__dart_deferred_initializers__,"xaNj9EW5PRnJBlAbEfOSNoKL/hw=");
