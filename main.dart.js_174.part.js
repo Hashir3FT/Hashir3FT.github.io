@@ -2,18 +2,18 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_174",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,B,D={
-WI(){var x=0,w=A.i(y.j),v,u=2,t,s,r,q,p,o,n,m,l,k,j
-var $async$WI=A.j(function(d,e){if(d===1){t=e
+Wv(){var x=0,w=A.i(y.j),v,u=2,t,s,r,q,p,o,n,m,l,k,j
+var $async$Wv=A.j(function(d,e){if(d===1){t=e
 x=u}while(true)switch(x){case 0:u=4
 m=y.g
 s=A.a8(["Content-Type","application/json"],m,m)
 r=A.aN("GET",A.ad($.ah+"/Coding/GetNextSubGroupId",0,null))
 r.r.F(0,s)
 x=7
-return A.c(J.aO(r),$async$WI)
+return A.c(J.aO(r),$async$Wv)
 case 7:q=e
 x=8
-return A.c(B.E.ae(q.w),$async$WI)
+return A.c(B.E.ae(q.w),$async$Wv)
 case 8:p=e
 m=y.j
 if(q.b===200){o=B.k.C(0,p,null)
@@ -39,11 +39,11 @@ case 3:x=2
 break
 case 6:case 1:return A.f(v,w)
 case 2:return A.e(t,w)}})
-return A.h($async$WI,w)},
-Xr(d,e){var x=0
-return D.eZ3(d,e)},
-eZ3(d,e){var x=0,w=A.i(y.j),v,u=2,t,s,r,q,p,o,n,m,l,k,j
-var $async$Xr=A.j(function(f,g){if(f===1){t=g
+return A.h($async$Wv,w)},
+Xe(d,e){var x=0
+return D.eYR(d,e)},
+eYR(d,e){var x=0,w=A.i(y.j),v,u=2,t,s,r,q,p,o,n,m,l,k,j
+var $async$Xe=A.j(function(f,g){if(f===1){t=g
 x=u}while(true)switch(x){case 0:k=0
 u=4
 m=y.g
@@ -52,10 +52,10 @@ r=A.aN("POST",A.ad($.ah+"/Coding/InsertSubGroup?isOpen="+e+"&userId="+A.p(k),0,n
 J.dd(r,B.k.h6(d.b1()))
 r.r.F(0,s)
 x=7
-return A.c(J.aO(r),$async$Xr)
+return A.c(J.aO(r),$async$Xe)
 case 7:q=g
 x=8
-return A.c(B.E.ae(q.w),$async$Xr)
+return A.c(B.E.ae(q.w),$async$Xe)
 case 8:p=g
 m=y.b
 if(q.b===200){o=B.k.C(0,p,null)
@@ -81,7 +81,7 @@ case 3:x=2
 break
 case 6:case 1:return A.f(v,w)
 case 2:return A.e(t,w)}})
-return A.h($async$Xr,w)}},C
+return A.h($async$Xe,w)}},C
 J=c[1]
 A=c[0]
 B=c[2]
@@ -96,4 +96,4 @@ C.ah5=new A.k(7,B.e,C.aDw,null)
 C.awN=A.b(x([C.agL,C.ah5]),A.H("m<r>"))
 C.XO=new A.ee(B.L,B.d,B.b,B.c,null,B.l,null,C.awN,null)})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_174",e:"endPart",h:b})})($__dart_deferred_initializers__,"Iu0TOqw6OfPb5AQ/NpZ3OlpsW6U=");
+a.eventLog.push({p:"main.dart.js_174",e:"endPart",h:b})})($__dart_deferred_initializers__,"os6hveCGUZMGKBgeghMPJmQjSW0=");

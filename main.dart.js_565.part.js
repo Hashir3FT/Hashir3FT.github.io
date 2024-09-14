@@ -2,18 +2,18 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_565",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,B,C={
-WF(){var x=0
-return C.eXb()},
-eXb(){var x=0,w=A.i(y.b),v,u=2,t,s,r,q,p,o,n,m,l,k
-var $async$WF=A.j(function(d,e){if(d===1){t=e
+Ws(){var x=0
+return C.eWZ()},
+eWZ(){var x=0,w=A.i(y.b),v,u=2,t,s,r,q,p,o,n,m,l,k
+var $async$Ws=A.j(function(d,e){if(d===1){t=e
 x=u}while(true)switch(x){case 0:l=0
 u=4
 s=A.aN("GET",A.ad($.ah+"/Sale/GetNextSaleInvoiceId?vOfficeID="+A.p(l),0,null))
 x=7
-return A.c(J.aO(s),$async$WF)
+return A.c(J.aO(s),$async$Ws)
 case 7:r=e
 x=8
-return A.c(B.E.ae(r.w),$async$WF)
+return A.c(B.E.ae(r.w),$async$Ws)
 case 8:q=e
 if(r.b===200){p=B.k.C(0,q,null)
 n=J.A(p,"data")
@@ -39,17 +39,17 @@ case 3:x=2
 break
 case 6:case 1:return A.f(v,w)
 case 2:return A.e(t,w)}})
-return A.h($async$WF,w)},
-Wn(d){return C.eX0(d)},
-eX0(d){var x=0,w=A.i(y.b),v,u=2,t,s,r,q,p,o,n,m,l
-var $async$Wn=A.j(function(e,f){if(e===1){t=f
+return A.h($async$Ws,w)},
+Wa(d){return C.eWO(d)},
+eWO(d){var x=0,w=A.i(y.b),v,u=2,t,s,r,q,p,o,n,m,l
+var $async$Wa=A.j(function(e,f){if(e===1){t=f
 x=u}while(true)switch(x){case 0:u=4
 s=A.aN("GET",A.ad($.ah+"/Sale/GetNewSaleInvoiceId?saleDate="+d,0,null))
 x=7
-return A.c(J.aO(s),$async$Wn)
+return A.c(J.aO(s),$async$Wa)
 case 7:r=f
 x=8
-return A.c(B.E.ae(r.w),$async$Wn)
+return A.c(B.E.ae(r.w),$async$Wa)
 case 8:q=f
 if(r.b===200){p=B.k.C(0,q,null)
 n=J.A(p,"data")
@@ -75,17 +75,17 @@ case 3:x=2
 break
 case 6:case 1:return A.f(v,w)
 case 2:return A.e(t,w)}})
-return A.h($async$Wn,w)},
-WO(d){return C.eXl(d)},
-eXl(d){var x=0,w=A.i(y.b),v,u=2,t,s,r,q,p,o,n,m,l
-var $async$WO=A.j(function(e,f){if(e===1){t=f
+return A.h($async$Wa,w)},
+WB(d){return C.eX8(d)},
+eX8(d){var x=0,w=A.i(y.b),v,u=2,t,s,r,q,p,o,n,m,l
+var $async$WB=A.j(function(e,f){if(e===1){t=f
 x=u}while(true)switch(x){case 0:u=4
 s=A.aN("GET",A.ad($.ah+"/Sale/GetPerUnitCost?productId="+d,0,null))
 x=7
-return A.c(J.aO(s),$async$WO)
+return A.c(J.aO(s),$async$WB)
 case 7:r=f
 x=8
-return A.c(B.E.ae(r.w),$async$WO)
+return A.c(B.E.ae(r.w),$async$WB)
 case 8:q=f
 if(r.b===200){p=B.k.C(0,q,null)
 n=J.A(p,"data")
@@ -111,17 +111,17 @@ case 3:x=2
 break
 case 6:case 1:return A.f(v,w)
 case 2:return A.e(t,w)}})
-return A.h($async$WO,w)},
-WP(d){return C.eXA(d)},
-eXA(d){var x=0,w=A.i(y.b),v,u=2,t,s,r,q,p,o,n,m,l
-var $async$WP=A.j(function(e,f){if(e===1){t=f
+return A.h($async$WB,w)},
+WC(d){return C.eXn(d)},
+eXn(d){var x=0,w=A.i(y.b),v,u=2,t,s,r,q,p,o,n,m,l
+var $async$WC=A.j(function(e,f){if(e===1){t=f
 x=u}while(true)switch(x){case 0:u=4
 s=A.aN("GET",A.ad($.ah+"/Sale/GetPurCost?productId="+d,0,null))
 x=7
-return A.c(J.aO(s),$async$WP)
+return A.c(J.aO(s),$async$WC)
 case 7:r=f
 x=8
-return A.c(B.E.ae(r.w),$async$WP)
+return A.c(B.E.ae(r.w),$async$WC)
 case 8:q=f
 if(r.b===200){p=B.k.C(0,q,null)
 n=J.A(p,"data")
@@ -147,7 +147,7 @@ case 3:x=2
 break
 case 6:case 1:return A.f(v,w)
 case 2:return A.e(t,w)}})
-return A.h($async$WP,w)}},D
+return A.h($async$WC,w)}},D
 J=c[1]
 A=c[0]
 B=c[2]
@@ -160,4 +160,4 @@ D.Sx=new A.cc("Missing Information","Please select customer before proceeding fu
 D.jD=new A.cc("Duplicate Product","Product with the same packing already exists.",B.ak,null,null,null,null)
 D.tw=new A.y("No Price",null,null,null,null,null,null,null,null,null,null)})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_565",e:"endPart",h:b})})($__dart_deferred_initializers__,"aOysfPVOviJ3hB1Oig/GfWplr1E=");
+a.eventLog.push({p:"main.dart.js_565",e:"endPart",h:b})})($__dart_deferred_initializers__,"ZBAI8dUkKdmqTszdyViiJ607vHU=");

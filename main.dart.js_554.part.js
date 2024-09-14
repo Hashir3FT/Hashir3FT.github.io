@@ -2,7 +2,7 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_554",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,C,D,B={
-eIl(c0){var x,w,v,u,t,s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8=J.aI(c0),b9=b8.i(c0,"OrderId")
+eI8(c0){var x,w,v,u,t,s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8=J.aI(c0),b9=b8.i(c0,"OrderId")
 if(b9==null)b9=0
 x=b8.i(c0,"BillNo")
 if(x==null)x=0
@@ -81,15 +81,15 @@ b6=b8.i(c0,"DebitLimit")
 if(b6==null)b6=0
 b7=b8.i(c0,"InvOfferDiscount")
 if(b7==null)b7=0
-return D.eIk(x,B.faf(b8.i(c0,"ListBody")),t,k,o,b6,i,a8,r,a9,q,b7,b1,b2,d,l,a6,a4,a3,a5,a1,a7,m,b5,u,s,a2,p,b9,e,b4,b3,n,f,w,g,b0,a0,h,j,v)},
-faf(d){var x
-if(y.d.b(d)&&d!=null){x=J.cw(d,new B.bCO(),y.i)
+return D.eI7(x,B.fa2(b8.i(c0,"ListBody")),t,k,o,b6,i,a8,r,a9,q,b7,b1,b2,d,l,a6,a4,a3,a5,a1,a7,m,b5,u,s,a2,p,b9,e,b4,b3,n,f,w,g,b0,a0,h,j,v)},
+fa2(d){var x
+if(y.d.b(d)&&d!=null){x=J.cw(d,new B.bCA(),y.i)
 return A.a4(x,!0,x.$ti.k("aA.E"))}else return A.b([],y.m)},
-bCO:function bCO(){},
-MY(d,e,f,g){var x=!1,w=!1,v=!1,u=!1,t=!1,s=!1,r=!1
-return B.eW1(d,e,f,g)},
-eW1(a1,a2,a3,a4){var x=0,w=A.i(y.q),v,u=2,t,s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,a0
-var $async$MY=A.j(function(a5,a6){if(a5===1){t=a6
+bCA:function bCA(){},
+MM(d,e,f,g){var x=!1,w=!1,v=!1,u=!1,t=!1,s=!1,r=!1
+return B.eVP(d,e,f,g)},
+eVP(a1,a2,a3,a4){var x=0,w=A.i(y.q),v,u=2,t,s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,a0
+var $async$MM=A.j(function(a5,a6){if(a5===1){t=a6
 x=u}while(true)switch(x){case 0:j=!1
 i=!1
 h=!1
@@ -100,15 +100,15 @@ d=!1
 u=4
 s=A.aN("GET",A.ad($.ah+"/Sale/GetSaleOrder?filter="+a1+"&fromDate="+a2+"&toDate="+a3+"&officeId="+a4+"&AllSaleOrders="+A.p(j)+"&vIsDispatchOrder="+A.p(h)+"&ParaInIsDeliveryOrder="+A.p(d)+"&vIsOpenProductName="+A.p(f)+"&IsFromSales="+A.p(g)+"&IsSupervised="+A.p(e)+"&IsCancel="+A.p(i),0,null))
 x=7
-return A.c(J.aO(s),$async$MY)
+return A.c(J.aO(s),$async$MM)
 case 7:r=a6
 x=8
-return A.c(C.E.ae(r.w),$async$MY)
+return A.c(C.E.ae(r.w),$async$MM)
 case 8:q=a6
 if(r.b===200){p=C.k.C(0,q,null)
 o=A.b([],y.b)
 for(l=J.aZ(J.A(p,"data"));l.N();){n=l.ga1(l)
-J.cd(o,B.eIl(n))}v=new A.x(o,1,null,null,y.q)
+J.cd(o,B.eI8(n))}v=new A.x(o,1,null,null,y.q)
 x=1
 break}l=A.W(C.k.C(0,q,null),y.D)
 v=l
@@ -130,14 +130,14 @@ case 3:x=2
 break
 case 6:case 1:return A.f(v,w)
 case 2:return A.e(t,w)}})
-return A.h($async$MY,w)}}
+return A.h($async$MM,w)}}
 J=c[1]
 A=c[0]
 C=c[2]
 D=c[279]
 B=a.updateHolder(c[275],B)
 var z=a.updateTypes(["oq(@)"])
-B.bCO.prototype={
+B.bCA.prototype={
 $1(b2){var x,w,v,u,t,s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,a0,a1,a2,a3,a4,a5,a6,a7,a8=null,a9=J.aI(b2),b0=a9.i(b2,"OrderId"),b1=a9.i(b2,"ProductId")
 if(b1==null)b1=""
 x=a9.i(b2,"PackingId")
@@ -199,9 +199,9 @@ if(a6==null)a6=0
 a7=a9.i(b2,"WeightPerUnit")
 if(a7==null)a7=0
 a9=a9.i(b2,"WeightPerLtr")
-return D.eIi(t,r,a6,p,q,f,g,a2,k,d,a4,l,m,w,a1,a3,b0,x,a8,e,a0,s,b1,a5,u,v,a8,a8,o,n,a8,h,i,j,a9==null?0:a9,a7)},
+return D.eI5(t,r,a6,p,q,f,g,a2,k,d,a4,l,m,w,a1,a3,b0,x,a8,e,a0,s,b1,a5,u,v,a8,a8,o,n,a8,h,i,j,a9==null?0:a9,a7)},
 $S:z+0};(function inheritance(){var x=a.inherit
-x(B.bCO,A.b0)})()
-var y={q:A.H("x<q<io>>"),m:A.H("m<oq>"),b:A.H("m<io>"),D:A.H("q<io>"),i:A.H("oq"),d:A.H("q<@>?")}};
+x(B.bCA,A.b0)})()
+var y={q:A.H("x<q<im>>"),m:A.H("m<oq>"),b:A.H("m<im>"),D:A.H("q<im>"),i:A.H("oq"),d:A.H("q<@>?")}};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_554",e:"endPart",h:b})})($__dart_deferred_initializers__,"piON3DFXG6aOvE9COZCfdHeMyNc=");
+a.eventLog.push({p:"main.dart.js_554",e:"endPart",h:b})})($__dart_deferred_initializers__,"U3r2dflZ7Wm93k6FJ8S6WZjDTeM=");

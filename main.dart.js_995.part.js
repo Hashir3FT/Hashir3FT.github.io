@@ -2,16 +2,16 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_995",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,C,D,B={
-eCv(d){var x,w,v,u,t=J.aI(d),s=y.d.a(t.i(d,"ListBody"))
+eCi(d){var x,w,v,u,t=J.aI(d),s=y.d.a(t.i(d,"ListBody"))
 if(s==null)x=null
-else{w=J.cw(s,new B.b_Y(),y.C)
+else{w=J.cw(s,new B.b_M(),y.C)
 x=A.a4(w,!0,w.$ti.k("aA.E"))}w=t.i(d,"IsPosted")
 v=t.i(d,"ID")
 u=t.i(d,"SalaryMonth")
 return new B.oZ(w,t.i(d,"DepartmentTitle"),v,u,t.i(d,"GenerateDate"),t.i(d,"BonusYear"),t.i(d,"DepartmentID"),t.i(d,"DesignationID"),t.i(d,"ShiftID"),t.i(d,"Remarks"),t.i(d,"TotalSalary"),t.i(d,"UserID"),x)},
-f1n(d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2){return new B.tz(p,x,g,b1,q,u,a2,h,i,e,a1,f,k,l,m,n,a9,a7,b0,a0,d,a6,j,b2,a5,v,w,t,a8,a4,r,s,a3,o)},
-eCu(b3){var x=J.aI(b3),w=x.i(b3,"ID"),v=x.i(b3,"EmployeeID"),u=x.i(b3,"Bonus"),t=x.i(b3,"TotallBonus"),s=x.i(b3,"EmployeeName"),r=x.i(b3,"FatherName"),q=x.i(b3,"JoiningDate"),p=x.i(b3,"CNIC"),o=x.i(b3,"ContactNo"),n=x.i(b3,"Address"),m=x.i(b3,"IsSalesman"),l=x.i(b3,"BasicSalary"),k=x.i(b3,"DepartmentID"),j=x.i(b3,"DepartmentTitle"),i=x.i(b3,"DesignationID"),h=x.i(b3,"DesignationTitle"),g=x.i(b3,"ShiftID"),f=x.i(b3,"ResignDate"),e=x.i(b3,"ShiftTitle"),d=x.i(b3,"InActive"),a0=x.i(b3,"AccountNo"),a1=x.i(b3,"RentAllowance"),a2=x.i(b3,"DearnessAllowance"),a3=x.i(b3,"TransportAllowance"),a4=x.i(b3,"OtherAllowance"),a5=x.i(b3,"GrossSalary"),a6=x.i(b3,"ITax"),a7=x.i(b3,"EOBI"),a8=x.i(b3,"SESSI"),a9=x.i(b3,"NETSalary"),b0=x.i(b3,"EmployeeShare"),b1=x.i(b3,"EmployerShare"),b2=x.i(b3,"MinWages")
-return B.f1n(a0,n,l,u,p,o,a2,k,j,i,h,x.i(b3,"EmpPicture"),v,s,b0,b1,a7,r,a5,a6,w,d,m,q,b2,a9,a4,a1,f,a8,g,e,t,a3)},
+f1a(d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2){return new B.tz(p,x,g,b1,q,u,a2,h,i,e,a1,f,k,l,m,n,a9,a7,b0,a0,d,a6,j,b2,a5,v,w,t,a8,a4,r,s,a3,o)},
+eCh(b3){var x=J.aI(b3),w=x.i(b3,"ID"),v=x.i(b3,"EmployeeID"),u=x.i(b3,"Bonus"),t=x.i(b3,"TotallBonus"),s=x.i(b3,"EmployeeName"),r=x.i(b3,"FatherName"),q=x.i(b3,"JoiningDate"),p=x.i(b3,"CNIC"),o=x.i(b3,"ContactNo"),n=x.i(b3,"Address"),m=x.i(b3,"IsSalesman"),l=x.i(b3,"BasicSalary"),k=x.i(b3,"DepartmentID"),j=x.i(b3,"DepartmentTitle"),i=x.i(b3,"DesignationID"),h=x.i(b3,"DesignationTitle"),g=x.i(b3,"ShiftID"),f=x.i(b3,"ResignDate"),e=x.i(b3,"ShiftTitle"),d=x.i(b3,"InActive"),a0=x.i(b3,"AccountNo"),a1=x.i(b3,"RentAllowance"),a2=x.i(b3,"DearnessAllowance"),a3=x.i(b3,"TransportAllowance"),a4=x.i(b3,"OtherAllowance"),a5=x.i(b3,"GrossSalary"),a6=x.i(b3,"ITax"),a7=x.i(b3,"EOBI"),a8=x.i(b3,"SESSI"),a9=x.i(b3,"NETSalary"),b0=x.i(b3,"EmployeeShare"),b1=x.i(b3,"EmployerShare"),b2=x.i(b3,"MinWages")
+return B.f1a(a0,n,l,u,p,o,a2,k,j,i,h,x.i(b3,"EmpPicture"),v,s,b0,b1,a7,r,a5,a6,w,d,m,q,b2,a9,a4,a1,f,a8,g,e,t,a3)},
 oZ:function oZ(d,e,f,g,h,i,j,k,l,m,n,o,p){var _=this
 _.a=d
 _.b=e
@@ -26,8 +26,8 @@ _.y=m
 _.z=n
 _.Q=o
 _.as=p},
-b_Y:function b_Y(){},
-b_Z:function b_Z(){},
+b_M:function b_M(){},
+b_N:function b_N(){},
 tz:function tz(d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2){var _=this
 _.a=d
 _.b=e
@@ -63,17 +63,17 @@ _.k3=a9
 _.k4=b0
 _.ok=b1
 _.p1=b2},
-Wc(d){return B.eWl(d)},
-eWl(d){var x=0,w=A.i(y.j),v,u=2,t,s,r,q,p,o,n,m
-var $async$Wc=A.j(function(e,f){if(e===1){t=f
+W_(d){return B.eW8(d)},
+eW8(d){var x=0,w=A.i(y.j),v,u=2,t,s,r,q,p,o,n,m
+var $async$W_=A.j(function(e,f){if(e===1){t=f
 x=u}while(true)switch(x){case 0:u=4
 s=A.ad($.ah+"/Payroll/GetBonusSheetById?sheetId="+d,0,null)
 x=7
-return A.c(D.cM(s,null),$async$Wc)
+return A.c(D.cM(s,null),$async$W_)
 case 7:r=f
 if(r.b===200){o=r
 q=C.k.C(0,A.aQ(J.A(A.aP(o.e).c.a,"charset")).a9(0,o.w),null)
-o=B.eCv(J.A(q,"data"))
+o=B.eCi(J.A(q,"data"))
 v=new A.x(o,1,null,null,y.j)
 x=1
 break}else{o=r
@@ -96,7 +96,7 @@ case 3:x=2
 break
 case 6:case 1:return A.f(v,w)
 case 2:return A.e(t,w)}})
-return A.h($async$Wc,w)}}
+return A.h($async$W_,w)}}
 J=c[1]
 A=c[0]
 C=c[2]
@@ -106,19 +106,19 @@ B.oZ.prototype={
 b1(){var x,w,v=this,u=v.as
 if(u==null)x=null
 else{w=A.aq(u).k("ak<1,bg<d,@>>")
-x=A.a4(new A.ak(u,new B.b_Z(),w),!0,w.k("aA.E"))}return A.a8(["IsPosted",v.a,"ID",v.c,"SalaryMonth",v.d,"DepartmentTitle",v.b,"GenerateDate",v.e,"BonusYear",v.f,"DepartmentID",v.r,"DesignationID",v.w,"ShiftID",v.x,"Remarks",v.y,"TotalSalary",v.z,"UserID",v.Q,"ListBody",x],y.w,y.b)}}
+x=A.a4(new A.ak(u,new B.b_N(),w),!0,w.k("aA.E"))}return A.a8(["IsPosted",v.a,"ID",v.c,"SalaryMonth",v.d,"DepartmentTitle",v.b,"GenerateDate",v.e,"BonusYear",v.f,"DepartmentID",v.r,"DesignationID",v.w,"ShiftID",v.x,"Remarks",v.y,"TotalSalary",v.z,"UserID",v.Q,"ListBody",x],y.w,y.b)}}
 B.tz.prototype={
 b1(){var x=this
 return A.a8(["ID",x.b,"Bonus",x.c,"TotallBonus",x.d,"EmployeeID",x.a,"EmployeeName",x.e,"FatherName",x.f,"JoiningDate",x.r,"CNIC",x.w,"ContactNo",x.x,"Address",x.y,"IsSalesman",x.z,"BasicSalary",x.Q,"DepartmentID",x.as,"DepartmentTitle",x.at,"DesignationID",x.ax,"DesignationTitle",x.ay,"ShiftID",x.ch,"ResignDate",x.CW,"ShiftTitle",x.cx,"InActive",x.cy,"AccountNo",x.db,"RentAllowance",x.dx,"DearnessAllowance",x.dy,"TransportAllowance",x.fr,"OtherAllowance",x.fx,"GrossSalary",x.fy,"ITax",x.go,"EOBI",x.id,"SESSI",x.k1,"NETSalary",x.k2,"EmployeeShare",x.k3,"EmployerShare",x.k4,"MinWages",x.ok,"EmpPicture",x.p1],y.w,y.b)}}
 var z=a.updateTypes(["tz(@)","bg<d,@>(tz)"])
-B.b_Y.prototype={
-$1(d){return B.eCu(d)},
+B.b_M.prototype={
+$1(d){return B.eCh(d)},
 $S:z+0}
-B.b_Z.prototype={
+B.b_N.prototype={
 $1(d){return d.b1()},
 $S:z+1};(function inheritance(){var x=a.inheritMany
 x(A.ag,[B.oZ,B.tz])
-x(A.b0,[B.b_Y,B.b_Z])})()
+x(A.b0,[B.b_M,B.b_N])})()
 var y={j:A.H("x<oZ>"),C:A.H("tz"),g:A.H("oZ"),w:A.H("d"),b:A.H("@"),d:A.H("q<@>?")}};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_995",e:"endPart",h:b})})($__dart_deferred_initializers__,"N+PehOEn3bC53D1THaqukPVhlfQ=");
+a.eventLog.push({p:"main.dart.js_995",e:"endPart",h:b})})($__dart_deferred_initializers__,"mxSvmgtDvs/Cf4r4HHHchqDp7g8=");

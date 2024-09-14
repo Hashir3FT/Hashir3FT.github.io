@@ -2,7 +2,7 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_580",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var J,B,D,C,A={
-ex9(e7){var x,w,v,u,t,s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2,c3,c4,c5,c6,c7,c8,c9,d0,d1,d2,d3,d4,d5,d6,d7,d8,d9,e0,e1,e2,e3,e4,e5=J.aI(e7),e6=e5.i(e7,"SaleId")
+ewX(e7){var x,w,v,u,t,s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2,c3,c4,c5,c6,c7,c8,c9,d0,d1,d2,d3,d4,d5,d6,d7,d8,d9,e0,e1,e2,e3,e4,e5=J.aI(e7),e6=e5.i(e7,"SaleId")
 if(e6==null)e6=0
 x=e5.i(e7,"BillNo")
 if(x==null)x=0
@@ -136,18 +136,18 @@ e3=e5.i(e7,"IsFinalized")
 if(e3==null)e3=!1
 e4=e5.i(e7,"PcName")
 if(e4==null)e4=""
-return C.ex8(a7,x,A.fad(e5.i(e7,"ListBody")),r,u,c5,k,e,f,a5,m,a8,d,c6,c7,d0,a9,d1,b9,b7,c1,c8,c9,b1,b3,b2,a0,h,e3,d8,d9,d6,e2,d7,d4,d2,i,s,p,a3,d5,t,e4,b5,b4,n,l,e6,q,c3,c4,a6,j,w,e1,e0,b6,b0,b8,d3,o,g,c0,v,a2,a1,c2,a4)},
-fad(d){var x
-if(y.d.b(d)&&d!=null){x=J.cw(d,new A.bCs(),y.n)
+return C.ewW(a7,x,A.fa0(e5.i(e7,"ListBody")),r,u,c5,k,e,f,a5,m,a8,d,c6,c7,d0,a9,d1,b9,b7,c1,c8,c9,b1,b3,b2,a0,h,e3,d8,d9,d6,e2,d7,d4,d2,i,s,p,a3,d5,t,e4,b5,b4,n,l,e6,q,c3,c4,a6,j,w,e1,e0,b6,b0,b8,d3,o,g,c0,v,a2,a1,c2,a4)},
+fa0(d){var x
+if(y.d.b(d)&&d!=null){x=J.cw(d,new A.bCe(),y.n)
 return B.a4(x,!0,x.$ti.k("aA.E"))}else return B.b([],y.p)},
-bCs:function bCs(){}}
+bCe:function bCe(){}}
 J=c[1]
 B=c[0]
 D=c[2]
 C=c[289]
 A=a.updateHolder(c[284],A)
-var z=a.updateTypes(["ka(@)"])
-A.bCs.prototype={
+var z=a.updateTypes(["k9(@)"])
+A.bCe.prototype={
 $1(f1){var x,w,v,u,t,s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2,c3,c4,c5,c6,c7,c8,c9,d0,d1,d2,d3,d4,d5,d6,d7,d8,d9,e0,e1,e2,e3,e4,e5,e6,e7,e8=null,e9=J.aI(f1),f0=e9.i(f1,"SaleId")
 if(f0==null)f0=0
 x=e9.i(f1,"ProductId")
@@ -288,9 +288,9 @@ if(e6==null)e6=0
 e7=e9.i(f1,"ProductProfit")
 if(e7==null)e7=0
 e9=e9.i(f1,"Weight")
-return C.exa(p,c7,e8,a9,d6,n,c4,d2,d3,l,m,e3,a1,a0,d5,c2,a6,e4,g,c0,a3,b4,e5,h,i,e1,b7,c6,t,c1,a5,b3,b5,b6,v,u,e8,a2,c8,a4,o,e6,x,w,e7,b9,r,s,q,c3,e8,k,j,f0,e8,d0,b8,b0,b1,b2,d7,d8,c5,a7,a8,d4,d,e2,c9,e,d1,f,e9==null?0:e9,e0,d9)},
+return C.ewY(p,c7,e8,a9,d6,n,c4,d2,d3,l,m,e3,a1,a0,d5,c2,a6,e4,g,c0,a3,b4,e5,h,i,e1,b7,c6,t,c1,a5,b3,b5,b6,v,u,e8,a2,c8,a4,o,e6,x,w,e7,b9,r,s,q,c3,e8,k,j,f0,e8,d0,b8,b0,b1,b2,d7,d8,c5,a7,a8,d4,d,e2,c9,e,d1,f,e9==null?0:e9,e0,d9)},
 $S:z+0};(function inheritance(){var x=a.inherit
-x(A.bCs,B.b0)})()
-var y={p:B.H("m<ka>"),n:B.H("ka"),d:B.H("q<@>?")}};
+x(A.bCe,B.b0)})()
+var y={p:B.H("m<k9>"),n:B.H("k9"),d:B.H("q<@>?")}};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_580",e:"endPart",h:b})})($__dart_deferred_initializers__,"Am0bqEgHV5Ws15EDe0D+VuHppMA=");
+a.eventLog.push({p:"main.dart.js_580",e:"endPart",h:b})})($__dart_deferred_initializers__,"SPaEuYcUTr839Ld9Sm3mFil72Ag=");

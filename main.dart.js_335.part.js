@@ -2,8 +2,8 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_335",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,B,C={
-xl(d){return C.eXt(d)},
-eXt(d){var x=0,w=A.i(y.j),v,u=2,t,s,r,q,p,o,n,m,l
+xl(d){return C.eXg(d)},
+eXg(d){var x=0,w=A.i(y.j),v,u=2,t,s,r,q,p,o,n,m,l
 var $async$xl=A.j(function(e,f){if(e===1){t=f
 x=u}while(true)switch(x){case 0:u=4
 s=A.aN("GET",A.ad($.ah+"/stock/GetProductCostForWastage?productId="+d,0,null))
@@ -17,7 +17,7 @@ x=r.b===200?9:10
 break
 case 9:n=B.k.C(0,q,null)
 x=11
-return A.c(y.i.b(n)?n:A.bR(n,y.b),$async$xl)
+return A.c(y.i.b(n)?n:A.bS(n,y.b),$async$xl)
 case 11:p=f
 n=J.A(p,"data")
 v=new A.x(n,1,null,null,y.j)
@@ -51,4 +51,4 @@ C=a.updateHolder(c[265],C)
 var z=a.updateTypes([])
 var y={j:A.H("x<@>"),i:A.H("t<@>"),b:A.H("@")}};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_335",e:"endPart",h:b})})($__dart_deferred_initializers__,"OLoJgl6ZahkyXqBgrQejUvJVnDU=");
+a.eventLog.push({p:"main.dart.js_335",e:"endPart",h:b})})($__dart_deferred_initializers__,"nAlLuN5vkzp7GWu1ZcZMM28a86E=");

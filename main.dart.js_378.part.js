@@ -2,8 +2,8 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_378",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,B,C={
-ih(d,e,f,g,h){return C.eWw(d,e,f,g,h)},
-eWw(d,e,f,g,h){var x=0,w=A.i(y.b),v,u=2,t,s,r,q,p,o,n,m,l
+ih(d,e,f,g,h){return C.eWj(d,e,f,g,h)},
+eWj(d,e,f,g,h){var x=0,w=A.i(y.b),v,u=2,t,s,r,q,p,o,n,m,l
 var $async$ih=A.j(function(i,j){if(i===1){t=j
 x=u}while(true)switch(x){case 0:u=4
 s=A.aN("GET",A.ad($.ah+"/Sale/GetCurrentStock?productId="+d+"&isSalesman="+e+"&salesmanId="+h+"&officeId="+f+"&vOldStock="+g,0,null))
@@ -45,4 +45,4 @@ C=a.updateHolder(c[312],C)
 var z=a.updateTypes([])
 var y={b:A.H("x<@>"),e:A.H("@")}};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_378",e:"endPart",h:b})})($__dart_deferred_initializers__,"BTL1x8xyLYe3olWMU/vYWF/v9KQ=");
+a.eventLog.push({p:"main.dart.js_378",e:"endPart",h:b})})($__dart_deferred_initializers__,"sihSnB61P4pJAEapcOl/KCP2jVk=");

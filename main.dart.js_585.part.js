@@ -2,8 +2,8 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_585",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,A={
-ewZ(d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,a0,a1,a2,a3){return new A.le(w,r,q,s,d,p,g,h,a0,a1,a3,a2,e,f,j,t,n,l,k,i,u,m,o,v)},
-le:function le(d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,a0,a1,a2){var _=this
+ewM(d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,a0,a1,a2,a3){return new A.ld(w,r,q,s,d,p,g,h,a0,a1,a3,a2,e,f,j,t,n,l,k,i,u,m,o,v)},
+ld:function ld(d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,a0,a1,a2){var _=this
 _.a=d
 _.b=e
 _.c=f
@@ -30,11 +30,11 @@ _.dy=a1
 _.fx=a2}}
 B=c[0]
 A=a.updateHolder(c[274],A)
-A.le.prototype={
+A.ld.prototype={
 b1(){var x=this
 return B.a8(["QuotationID",x.a,"ProductID",x.c,"ProductName",x.b,"Qty",x.d,"Bonus",x.e,"Price",x.f,"DiscRatio",x.r,"DiscValue",x.w,"STRatio",x.x,"STValue",x.y,"TTLValue",x.z,"TTLSalesTax",x.Q,"Cost",x.as,"Description",x.at,"IsDeleted",x.ax,"QtyL",x.ay,"PackingId",x.ch,"Multiplier",x.CW,"IsValueB4Ratio",x.cx,"HSCode",x.cy],y.g,y.b)}}
 var z=a.updateTypes([]);(function inheritance(){var x=a.inherit
-x(A.le,B.ag)})()
+x(A.ld,B.ag)})()
 var y={g:B.H("d"),b:B.H("@")}};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_585",e:"endPart",h:b})})($__dart_deferred_initializers__,"q9oFW8TTmyOVQImwWSlS6fz/0YE=");
+a.eventLog.push({p:"main.dart.js_585",e:"endPart",h:b})})($__dart_deferred_initializers__,"fKUJ35cqJsnUaaSz3HYp5Gbzvk8=");

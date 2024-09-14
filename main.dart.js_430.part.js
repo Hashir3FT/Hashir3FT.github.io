@@ -2,9 +2,9 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_430",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,A={
-eHx(d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2){return new A.k8(b4,b3,b0,j,e,u,a8,c1,g,f,a3,a9,a5,b7,i,s,b2,x,a7,q,b9,t,h,b1,p,b8,n,o,b5,b6,l,m,v,w,a6,r,a2,c0,d,a0,k,c2,a1,a4)},
-eHw(d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8){return new A.mQ(a7,a5,a6,a2,a1,v,a9,a8,e,a4,i,k,j,x,b1,b2,t,s,p,b7,b6,b5,b4,m,l,a3,q,o,g,a0,r,h,d,n,b8,u,b3,f,b0,w)},
-k8:function k8(d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2){var _=this
+eHk(d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2){return new A.k7(b4,b3,b0,j,e,u,a8,c1,g,f,a3,a9,a5,b7,i,s,b2,x,a7,q,b9,t,h,b1,p,b8,n,o,b5,b6,l,m,v,w,a6,r,a2,c0,d,a0,k,c2,a1,a4)},
+eHj(d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8){return new A.mQ(a7,a5,a6,a2,a1,v,a9,a8,e,a4,i,k,j,x,b1,b2,t,s,p,b7,b6,b5,b4,m,l,a3,q,o,g,a0,r,h,d,n,b8,u,b3,f,b0,w)},
+k7:function k7(d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2){var _=this
 _.a=d
 _.b=e
 _.c=f
@@ -49,7 +49,7 @@ _.ry=b9
 _.to=c0
 _.x1=c1
 _.x2=c2},
-bxA:function bxA(){},
+bxm:function bxm(){},
 mQ:function mQ(d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8){var _=this
 _.a=d
 _.b=e
@@ -93,7 +93,7 @@ _.RG=b7
 _.ry=b8}}
 B=c[0]
 A=a.updateHolder(c[269],A)
-A.k8.prototype={
+A.k7.prototype={
 b1(){var x,w,v,u,t,s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8=this,b9=" ",c0=b8.d
 if(c0==null)c0=b9
 x=b8.p2
@@ -172,7 +172,7 @@ if(b5==null)b5=b9
 b6=b8.x2
 if(b6==null)b6=null
 else{b7=B.aq(b6).k("ak<1,bg<d,@>>")
-b7=B.a4(new B.ak(b6,new A.bxA(),b7),!0,b7.k("aA.E"))
+b7=B.a4(new B.ak(b6,new A.bxm(),b7),!0,b7.k("aA.E"))
 b6=b7}return B.a8(["Date",c0,"NetValue",x,"SpecialDiscount",w,"Narration",v,"DueDate",u,"GSTax",t,"IsUploaded",b8.z===!0,"CustomerId",s,"BillNo",r,"BillDate",q,"IDOffice",b8.f,"PaidAmount",p,"AccountNo",o,"Amount",n,"BiltyNo",m,"ExtraSaleTaxVal",l,"ExtraSaleTaxPer",k,"FinalBalance",j,"Freight2",i,"FrmExp",h,"FTaxPer",g,"FTaxValue",f,"IncomeTaxPer",e,"IncomeTaxVal",d,"InvOfferFTax",a0,"IsFinalized",b8.rx===!0,"IsPosted",b8.p4===!0,"ITax2",a1,"OfferID",a2,"OfficeID",a3,"PreviousBal",a4,"PurchaseDate",a5,"PurchaseID",a6,"PurOrderID",a7,"SaleTaxPer",a8,"SaleTaxVal",a9,"TradeDiscount",b0,"Unloading2",b1,"UserID",b2,"VendorID",b3,"WHTaxPer",b4,"PartyName",b5,"IsMultiInvoice",b8.x1===!0,"ListBody",b6],y.g,y.b)}}
 A.mQ.prototype={
 b1(){var x,w,v,u,t,s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1=this,b2=b1.a
@@ -243,11 +243,11 @@ b0=b1.ry
 if(b0==null)b0=0
 return B.a8(["PurchaseId",b2,"ProductId",x,"PackingId",w,"Multiplier",v,"QtyPack",u,"QtyLose",t,"BnsLose",s,"PricePack",r,"DiscRatio",q,"DiscValPack",p,"DiscValLose",o,"OfferDiscount",n,"STaxRatio",m,"STaxValPack",l,"IsValueB4Ratio",b1.ch===!0,"IsSTaxOnBns",b1.CW===!0,"IsFTaxExempted",b1.cx===!0,"TTLValue",k,"TTLSTax",j,"TTLFTax",i,"TTITax",h,"ExtraSTaxBns",g,"ExtraFTaxBns",f,"PerUnitCostLose",e,"IsFreeProduct",b1.go===!0,"IsDeleted",b1.id===!0,"CustomerId",d,"OfferID",a0,"IsOffered",b1.k3===!0,"Damage",a1,"BarCode",a2,"ITaxPer",a3,"ThanQty",a4,"Meters",a5,"SizeID",a6,"ColorID",a7,"PackingName",a8,"ProductName",a9,"NetVal",b0],y.g,y.b)}}
 var z=a.updateTypes(["bg<d,@>(mQ)"])
-A.bxA.prototype={
+A.bxm.prototype={
 $1(d){return d.b1()},
 $S:z+0};(function inheritance(){var x=a.inheritMany,w=a.inherit
-x(B.ag,[A.k8,A.mQ])
-w(A.bxA,B.b0)})()
+x(B.ag,[A.k7,A.mQ])
+w(A.bxm,B.b0)})()
 var y={g:B.H("d"),b:B.H("@")}};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_430",e:"endPart",h:b})})($__dart_deferred_initializers__,"P6StNEInIAtDAq0zPm+G/l/wQ68=");
+a.eventLog.push({p:"main.dart.js_430",e:"endPart",h:b})})($__dart_deferred_initializers__,"cRgmaMZAAtp0qwuolKE5F/M0rtA=");

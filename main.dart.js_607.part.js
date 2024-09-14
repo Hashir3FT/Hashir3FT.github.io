@@ -2,8 +2,8 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_607",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,A={
-eIo(d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4){return new A.qI(a8,a4,a7,d,p,j,a9,b0,g,u,a0,h,i,b2,k,m,l,a1,a6,w,q,r,s,b4,x,f,n,o,e,a2,a3,a5,t,v)},
-eIm(d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9){return new A.mU(a9,a4,w,u,a7,a6,d,a3,e,g,h,v,i,b0,b1,r,q,p,m,b9,b7,b5,k,j,a2,a0,o,l,s,b3,n,f,b4,t,a1,b6,b2,b8,a5,x,a8)},
+eIb(d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4){return new A.qI(a8,a4,a7,d,p,j,a9,b0,g,u,a0,h,i,b2,k,m,l,a1,a6,w,q,r,s,b4,x,f,n,o,e,a2,a3,a5,t,v)},
+eI9(d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9){return new A.mU(a9,a4,w,u,a7,a6,d,a3,e,g,h,v,i,b0,b1,r,q,p,m,b9,b7,b5,k,j,a2,a0,o,l,s,b3,n,f,b4,t,a1,b6,b2,b8,a5,x,a8)},
 qI:function qI(d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2){var _=this
 _.a=d
 _.b=e
@@ -39,7 +39,7 @@ _.k3=a9
 _.k4=b0
 _.ok=b1
 _.p3=b2},
-bDl:function bDl(){},
+bD7:function bD7(){},
 mU:function mU(d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9){var _=this
 _.a=d
 _.b=e
@@ -88,17 +88,17 @@ A.qI.prototype={
 b1(){var x,w=this,v=w.c,u=w.a,t=w.r,s=w.w,r=w.x,q=w.y,p=w.Q,o=w.as,n=w.at,m=w.ax,l=w.ay,k=w.ch,j=w.CW,i=w.cx,h=w.cy,g=w.fr,f=w.fx,e=w.id,d=w.k1,a0=w.ok,a1=w.p3
 if(a1==null)a1=null
 else{x=B.aq(a1).k("ak<1,bg<d,@>>")
-x=B.a4(new B.ak(a1,new A.bDl(),x),!0,x.k("aA.E"))
+x=B.a4(new B.ak(a1,new A.bD7(),x),!0,x.k("aA.E"))
 a1=x}return B.a8(["PartyName",w.b,"IDOffice",w.f,"IsPosted",w.e,"Amount",w.d,"ReturnDate",v,"ReturnId",u,"SaleId",t,"SalesmanId",s,"CustomerId",r,"IsStockist",q,"OldIsStockist",w.z,"Disc2Ratio",p,"FTaxRatio",o,"SpecialDiscount",n,"InvOfferDiscount",m,"InvOfferSTax",l,"InvOfferFTax",k,"PaidAmount",j,"PreviousCredit",i,"Narration",h,"IsPosted2",w.db,"IsPosted3",w.dx,"IsPosted4",w.dy,"UserNo",g,"OfficeID",f,"CashAccount",w.fy,"IsFinalize",w.go,"IsManual",e,"BillNo",d,"PainterID",w.k2,"PainterPhone",w.k3,"PreBalPainter",w.k4,"IsRP",a0,"ListBody",a1],y.g,y.b)}}
 A.mU.prototype={
 b1(){var x=this
 return B.a8(["ReturnId",x.a,"ProductId",x.b,"PackingId",x.c,"Multiplier",x.d,"QtyPack",x.e,"QtyLose",x.f,"BnsLose",x.r,"PricePack",x.w,"DiscRatio",x.x,"DiscValLose",x.y,"DiscValPack",x.z,"OfferDiscount",x.Q,"ExFromSTax",x.as,"STaxRatio",x.at,"STaxValPack",x.ax,"IsValueB4Ratio",x.ay,"IsSTaxOnBnsPur",x.ch,"IsSTaxOnBns",x.CW,"IsFTaxExempted",x.cx,"TTLValue",x.cy,"TTLSTax",x.db,"TTLFTax",x.dx,"ExtraSTaxBns",x.dy,"ExtraFTaxBns",x.fr,"PriceHistoryId",x.fx,"PerUnitCostLose",x.fy,"IsFreeProduct",x.go,"IsDeleted",x.id,"LastSalePrice",x.k1,"SerialNo",x.k2,"IsFinalized",x.k3,"DiscRatio2",x.k4,"ThanQty",x.ok,"Meters",x.p1,"Point",x.p2,"TTLPoint",x.p3,"Scheme",x.p4,"TTLScheme",x.R8],y.g,y.b)}}
 var z=a.updateTypes(["bg<d,@>(mU)"])
-A.bDl.prototype={
+A.bD7.prototype={
 $1(d){return d.b1()},
 $S:z+0};(function inheritance(){var x=a.inheritMany,w=a.inherit
 x(B.ag,[A.qI,A.mU])
-w(A.bDl,B.b0)})()
+w(A.bD7,B.b0)})()
 var y={g:B.H("d"),b:B.H("@")}};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_607",e:"endPart",h:b})})($__dart_deferred_initializers__,"kDAKTI8k2aof/XdJ+SCrkttEhE0=");
+a.eventLog.push({p:"main.dart.js_607",e:"endPart",h:b})})($__dart_deferred_initializers__,"sa25/xOc2Xh1IBshBhGxZeXdlN4=");

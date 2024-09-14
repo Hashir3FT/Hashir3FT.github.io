@@ -2,15 +2,15 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_113",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,B,C={
-WG(){var x=0,w=A.i(y.j),v,u=2,t,s,r,q,p,o,n,m,l
-var $async$WG=A.j(function(d,e){if(d===1){t=e
+Wt(){var x=0,w=A.i(y.j),v,u=2,t,s,r,q,p,o,n,m,l
+var $async$Wt=A.j(function(d,e){if(d===1){t=e
 x=u}while(true)switch(x){case 0:u=4
 s=A.aN("GET",A.ad($.ah+"/Coding/GetNextSectorId",0,null))
 x=7
-return A.c(J.aO(s),$async$WG)
+return A.c(J.aO(s),$async$Wt)
 case 7:r=e
 x=8
-return A.c(B.E.ae(r.w),$async$WG)
+return A.c(B.E.ae(r.w),$async$Wt)
 case 8:q=e
 if(r.b===200){p=B.k.C(0,q,null)
 n=J.A(p,"data")
@@ -26,7 +26,7 @@ break
 case 4:u=3
 l=t
 o=A.U(l)
-A.iL().$1(J.u(o))
+A.iK().$1(J.u(o))
 n=J.u(o)
 v=new A.x(null,0,n,null,y.j)
 x=1
@@ -37,11 +37,11 @@ case 3:x=2
 break
 case 6:case 1:return A.f(v,w)
 case 2:return A.e(t,w)}})
-return A.h($async$WG,w)},
-Xq(d,e){var x=0
-return C.eZ0(d,e)},
-eZ0(d,e){var x=0,w=A.i(y.j),v,u=2,t,s,r,q,p,o,n,m,l,k,j,i
-var $async$Xq=A.j(function(f,g){if(f===1){t=g
+return A.h($async$Wt,w)},
+Xd(d,e){var x=0
+return C.eYO(d,e)},
+eYO(d,e){var x=0,w=A.i(y.j),v,u=2,t,s,r,q,p,o,n,m,l,k,j,i
+var $async$Xd=A.j(function(f,g){if(f===1){t=g
 x=u}while(true)switch(x){case 0:j=0
 u=4
 s=A.aN("POST",A.ad($.ah+"/Coding/InsertSector?isOpen="+e+"&userId="+A.p(j),0,null))
@@ -51,10 +51,10 @@ q=B.k.cc(d,null)
 s.r.F(0,r)
 J.dd(s,q)
 x=7
-return A.c(J.aO(s),$async$Xq)
+return A.c(J.aO(s),$async$Xd)
 case 7:p=g
 x=8
-return A.c(B.E.ae(p.w),$async$Xq)
+return A.c(B.E.ae(p.w),$async$Xd)
 case 8:o=g
 if(p.b===200){n=B.k.C(0,o,null)
 l=A.W(n,y.b)
@@ -70,7 +70,7 @@ break
 case 4:u=3
 i=t
 m=A.U(i)
-A.iL().$1(J.u(m))
+A.iK().$1(J.u(m))
 l=J.u(m)
 v=new A.x(null,0,l,null,y.j)
 x=1
@@ -81,7 +81,7 @@ case 3:x=2
 break
 case 6:case 1:return A.f(v,w)
 case 2:return A.e(t,w)}})
-return A.h($async$Xq,w)}},D
+return A.h($async$Xd,w)}},D
 J=c[1]
 A=c[0]
 B=c[2]
@@ -90,4 +90,4 @@ D=c[522]
 var z=a.updateTypes([])
 var y={j:A.H("x<@>"),g:A.H("d"),b:A.H("@")};(function constants(){D.Sw=new A.cc("Missing Information","Sector name is mandatory",B.ak,null,null,null,null)})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_113",e:"endPart",h:b})})($__dart_deferred_initializers__,"b+LsEYwdWB8m623ODIZon7DS+0I=");
+a.eventLog.push({p:"main.dart.js_113",e:"endPart",h:b})})($__dart_deferred_initializers__,"n/gtqTT3rZTNxJjXSOWeE09b2R0=");

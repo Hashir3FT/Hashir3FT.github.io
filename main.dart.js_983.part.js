@@ -6,8 +6,8 @@ B=c[0]
 C=c[324]
 A=c[587]
 var z=a.updateTypes([]);(function constants(){var y=a.makeConstList
-A.aPU=new C.kx("Work Detail",null)
-A.aPQ=new C.kx("Employee",null)
+A.aPU=new C.kw("Work Detail",null)
+A.aPQ=new C.kw("Employee",null)
 A.qB=B.b(y([A.aPU,A.aPQ]),B.H("m<r>"))})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_983",e:"endPart",h:b})})($__dart_deferred_initializers__,"FH9JG0+EGYJG8ZUSr8BKMZzqgnQ=");
+a.eventLog.push({p:"main.dart.js_983",e:"endPart",h:b})})($__dart_deferred_initializers__,"s1yzu1QpNsqfxB/hns+LNjqoSwM=");

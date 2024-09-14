@@ -2,8 +2,8 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_561",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,A={
-ex8(d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2,c3,c4,c5,c6,c7,c8,c9,d0,d1,d2,d3,d4,d5,d6,d7,d8,d9,e0,e1,e2,e3,e4,e5,e6){return new A.hB(c6,e,d2,e2,c0,b6,g,c7,b7,d9,c4,n,c5,j,d1,b5,a6,e0,l,k,p,a5,e4,e3,b8,e6,m,d0,h,d,c1,o,t,d6,a2,a4,a3,c3,c2,d5,w,d7,v,e1,x,e5,i,c8,c9,q,r,a0,a1,s,u,b4,d8,b3,b9,b0,b2,a8,a9,d4,d3,b1,a7,f)},
-exa(d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2,c3,c4,c5,c6,c7,c8,c9,d0,d1,d2,d3,d4,d5,d6,d7,d8,d9,e0,e1,e2,e3,e4,e5,e6,e7,e8,e9,f0,f1,f2,f3){return new A.ka(d2,b3,c6,c5,d,b8,d6,d8,b0,d5,c8,e1,e,a7,b9,i,n,m,d0,d1,f0,e8,e5,q,p,b6,a9,e3,b1,b2,a5,c4,a8,s,j,a6,b7,e7,d4,e9,k,l,e4,d9,e0,f3,f2,a4,e6,o,f,c0,c3,f1,a3,a2,v,x,t,a0,w,u,a1,c1,c2,b4,e2,g,d7,r,h,c7)},
+ewW(d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2,c3,c4,c5,c6,c7,c8,c9,d0,d1,d2,d3,d4,d5,d6,d7,d8,d9,e0,e1,e2,e3,e4,e5,e6){return new A.hB(c6,e,d2,e2,c0,b6,g,c7,b7,d9,c4,n,c5,j,d1,b5,a6,e0,l,k,p,a5,e4,e3,b8,e6,m,d0,h,d,c1,o,t,d6,a2,a4,a3,c3,c2,d5,w,d7,v,e1,x,e5,i,c8,c9,q,r,a0,a1,s,u,b4,d8,b3,b9,b0,b2,a8,a9,d4,d3,b1,a7,f)},
+ewY(d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2,c3,c4,c5,c6,c7,c8,c9,d0,d1,d2,d3,d4,d5,d6,d7,d8,d9,e0,e1,e2,e3,e4,e5,e6,e7,e8,e9,f0,f1,f2,f3){return new A.k9(d2,b3,c6,c5,d,b8,d6,d8,b0,d5,c8,e1,e,a7,b9,i,n,m,d0,d1,f0,e8,e5,q,p,b6,a9,e3,b1,b2,a5,c4,a8,s,j,a6,b7,e7,d4,e9,k,l,e4,d9,e0,f3,f2,a4,e6,o,f,c0,c3,f1,a3,a2,v,x,t,a0,w,u,a1,c1,c2,b4,e2,g,d7,r,h,c7)},
 hB:function hB(d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2,c3,c4,c5,c6,c7,c8,c9,d0,d1,d2,d3,d4,d5,d6,d7,d8,d9,e0,e1,e2,e3,e4,e5,e6){var _=this
 _.a=d
 _.b=e
@@ -73,8 +73,8 @@ _.b5=e3
 _.bF=e4
 _.br=e5
 _.R=e6},
-bCt:function bCt(){},
-ka:function ka(d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2,c3,c4,c5,c6,c7,c8,c9,d0,d1,d2,d3,d4,d5,d6,d7,d8,d9,e0,e1,e2,e3,e4,e5,e6,e7,e8,e9,f0){var _=this
+bCf:function bCf(){},
+k9:function k9(d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2,c3,c4,c5,c6,c7,c8,c9,d0,d1,d2,d3,d4,d5,d6,d7,d8,d9,e0,e1,e2,e3,e4,e5,e6,e7,e8,e9,f0){var _=this
 _.a=d
 _.b=e
 _.c=f
@@ -153,16 +153,16 @@ A.hB.prototype={
 b1(){var x,w=this,v=w.a,u=w.b,t=w.c,s=w.d,r=w.k1,q=w.e,p=w.w,o=w.x,n=w.y,m=w.as,l=w.at,k=w.ax,j=w.ay,i=w.ch,h=w.cx,g=w.cy,f=w.dx,e=w.go,d=w.k4,a0=w.ok,a1=w.p1,a2=w.p2,a3=w.p3,a4=w.p4,a5=w.R8,a6=w.RG,a7=w.to,a8=w.aq,a9=w.aE,b0=w.av,b1=w.bA,b2=w.aR,b3=w.k3,b4=w.R
 b4.toString
 x=B.aq(b4).k("ak<1,bg<d,@>>")
-return B.a8(["SaleId",v,"BillNo",u,"SectorID",t,"UserNo",s,"BuiltyNo",r,"OrderId",q,"OfferID",w.f,"BookerID",w.r,"SaleIdNew",p,"OfficeID",o,"TownID",n,"ReturnID",w.z,"DOrderID",w.Q,"SaleDate",m,"CustomerId",l,"SalesmanId",k,"Narration",j,"InvoiceNotes",i,"TransportName",w.CW,"CustomerName",h,"CustomerMobile",g,"DueDate",w.db,"InvType",f,"VehicleAcNo",w.dy,"VehicleAcName",w.fr,"OilChangeDate",w.fx,"VehicleNo",w.fy,"CustPhoneNo",e,"SaleTime",w.id,"AccountNo",w.k2,"Disc2Ratio",d,"FTaxRatio",a0,"SpecialDiscount",a1,"InvOfferDiscount",a2,"InvOfferSTax",a3,"InvOfferFTax",a4,"ReceivedAmount",a5,"PreviousCredit",a6,"ServiceChargesRatio",w.rx,"GstRatio",w.ry,"TotalReceivedCash",a7,"Freight2",w.x1,"Unloading2",w.x2,"ITax2",w.xr,"VehicleFreightExp",w.y1,"SaleTaxPer",w.a8,"SaleTaxVal",w.aw,"CurrentReading",w.a6,"ExtraSaleTaxPer",w.ai,"ExtraSaleTaxVal",w.aA,"IncomeTaxPer",w.L,"IncomeTaxVal",w.B,"FTaxPer",w.A,"FTaxValue",w.S,"LastReading",w.U,"TotalSaleValue",w.ah,"IsStockist",a8,"OldIsStockist",a9,"IsPosted",b0,"IsRP",b1,"IsMRP",b2,"IsOilTuning",w.bL,"SendSMSTuning",w.aZ,"SendSMSOilChange",w.b5,"IsPrinted",w.bF,"IsFinalized",w.br,"PcName",b3,"ListBody",B.a4(new B.ak(b4,new A.bCt(),x),!0,x.k("aA.E"))],y.g,y.b)}}
-A.ka.prototype={
+return B.a8(["SaleId",v,"BillNo",u,"SectorID",t,"UserNo",s,"BuiltyNo",r,"OrderId",q,"OfferID",w.f,"BookerID",w.r,"SaleIdNew",p,"OfficeID",o,"TownID",n,"ReturnID",w.z,"DOrderID",w.Q,"SaleDate",m,"CustomerId",l,"SalesmanId",k,"Narration",j,"InvoiceNotes",i,"TransportName",w.CW,"CustomerName",h,"CustomerMobile",g,"DueDate",w.db,"InvType",f,"VehicleAcNo",w.dy,"VehicleAcName",w.fr,"OilChangeDate",w.fx,"VehicleNo",w.fy,"CustPhoneNo",e,"SaleTime",w.id,"AccountNo",w.k2,"Disc2Ratio",d,"FTaxRatio",a0,"SpecialDiscount",a1,"InvOfferDiscount",a2,"InvOfferSTax",a3,"InvOfferFTax",a4,"ReceivedAmount",a5,"PreviousCredit",a6,"ServiceChargesRatio",w.rx,"GstRatio",w.ry,"TotalReceivedCash",a7,"Freight2",w.x1,"Unloading2",w.x2,"ITax2",w.xr,"VehicleFreightExp",w.y1,"SaleTaxPer",w.a8,"SaleTaxVal",w.aw,"CurrentReading",w.a6,"ExtraSaleTaxPer",w.ai,"ExtraSaleTaxVal",w.aA,"IncomeTaxPer",w.L,"IncomeTaxVal",w.B,"FTaxPer",w.A,"FTaxValue",w.S,"LastReading",w.U,"TotalSaleValue",w.ah,"IsStockist",a8,"OldIsStockist",a9,"IsPosted",b0,"IsRP",b1,"IsMRP",b2,"IsOilTuning",w.bL,"SendSMSTuning",w.aZ,"SendSMSOilChange",w.b5,"IsPrinted",w.bF,"IsFinalized",w.br,"PcName",b3,"ListBody",B.a4(new B.ak(b4,new A.bCf(),x),!0,x.k("aA.E"))],y.g,y.b)}}
+A.k9.prototype={
 b1(){var x=this
 return B.a8(["SaleId",x.a,"ProductId",x.b5,"ProductName",x.bF,"PackingId",x.b,"Multiplier",x.ax,"QtyPack",x.c,"QtyLose",x.d,"BnsLose",x.e,"PricePack",x.ay,"DiscRatio",x.ch,"DiscValPack",x.CW,"DiscValLose",x.cx,"STaxRatio",x.cy,"STaxValPack",x.db,"IsValueB4Ratio",x.U,"IsSTaxOnBns",x.ah,"IsFTaxExempted",x.aq,"TTLValue",x.dx,"TTLSTax",x.dy,"TTLFTax",x.fr,"ExtraSTaxBns",x.fx,"ExtraFTaxBns",x.fy,"PerUnitCostLose",x.go,"IsFreeProduct",x.aE,"PriceHistoryId",x.f,"OfferDiscount",x.id,"IsDeleted",x.av,"Toping",x.R,"TopingValue",x.k1,"CustomerId",x.bo,"Size",x.r,"SizeName",x.ad,"SizeQty",x.w,"OfferId",x.x,"IsOffered",x.bA,"PHeight",x.k2,"PWidth",x.k3,"LastSalePrice",x.k4,"SerialNo",x.y,"PurchasePrice",x.ok,"IsFinalized",x.aR,"NetTPrice",x.p1,"InvPrice",x.p2,"ReturnId",x.z,"DiscRatio2",x.p3,"ThanQty",x.Q,"Meters",x.p4,"ColorId",x.as,"Point",x.R8,"TTLPoint",x.RG,"Scheme",x.rx,"TTLScheme",x.ry,"DiscRatio3",x.to,"DiscRatio4",x.x1,"TTLDiscs",x.x2,"HSCode",x.bN,"Description",x.bT,"SMComRatio",x.xr,"SMComValue",x.y1,"WeightPerUnit",x.y2,"WeightPerLtr",x.am,"Labour",x.a6,"TTLLabour",x.a8,"DiscValPack2",x.aw,"IsDiscP",x.bL,"IReturn",x.aZ,"ProductCost",x.aA,"ProductProfit",x.L,"Weight",x.S],y.g,y.b)}}
-var z=a.updateTypes(["bg<d,@>(ka)"])
-A.bCt.prototype={
+var z=a.updateTypes(["bg<d,@>(k9)"])
+A.bCf.prototype={
 $1(d){return d.b1()},
 $S:z+0};(function inheritance(){var x=a.inheritMany,w=a.inherit
-x(B.ag,[A.hB,A.ka])
-w(A.bCt,B.b0)})()
+x(B.ag,[A.hB,A.k9])
+w(A.bCf,B.b0)})()
 var y={g:B.H("d"),b:B.H("@")}};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_561",e:"endPart",h:b})})($__dart_deferred_initializers__,"MuuMmHQS2cMZOOAkhByhzInV3Aw=");
+a.eventLog.push({p:"main.dart.js_561",e:"endPart",h:b})})($__dart_deferred_initializers__,"cIevqEAta0M5F2SCTAPlGqXLAwU=");

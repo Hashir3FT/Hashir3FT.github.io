@@ -2,7 +2,7 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_429",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,C,B={
-eHy(c4){var x,w,v,u,t,s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1=" ",c2=J.aI(c4),c3=c2.i(c4,"Date")
+eHl(c4){var x,w,v,u,t,s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1=" ",c2=J.aI(c4),c3=c2.i(c4,"Date")
 if(c3==null)c3=c1
 x=c2.i(c4,"NetValue")
 if(x==null)x=0
@@ -88,29 +88,29 @@ c0=c2.i(c4,"IsMultiInvoice")
 if(c0==null)c0=!1
 c2=y.d.a(c2.i(c4,"ListBody"))
 if(c2==null)c2=null
-else{c2=J.cw(c2,new B.bxz(),y.u)
-c2=A.a4(c2,!0,c2.$ti.k("aA.E"))}return D.eHx(m,l,p,q,k,r,c3,u,j,i,e,d,h,g,f,t,a5,o,a0,a1,a2,a3,c0,a4,s,c2,v,x,a6,a7,n,b9,a8,b1,a9,b0,b2,b3,w,b4,b5,b6,b7,b8)},
-bxz:function bxz(){},
-MV(d,e,f,g,h,i,j,k){return B.eVU(d,e,f,g,h,i,!1,k)},
-eVU(d,e,f,g,h,i,a0,a1){var x=0,w=A.i(y.y),v,u=2,t,s,r,q,p,o,n,m,l,k,j
-var $async$MV=A.j(function(a2,a3){if(a2===1){t=a3
+else{c2=J.cw(c2,new B.bxl(),y.u)
+c2=A.a4(c2,!0,c2.$ti.k("aA.E"))}return D.eHk(m,l,p,q,k,r,c3,u,j,i,e,d,h,g,f,t,a5,o,a0,a1,a2,a3,c0,a4,s,c2,v,x,a6,a7,n,b9,a8,b1,a9,b0,b2,b3,w,b4,b5,b6,b7,b8)},
+bxl:function bxl(){},
+MJ(d,e,f,g,h,i,j,k){return B.eVH(d,e,f,g,h,i,!1,k)},
+eVH(d,e,f,g,h,i,a0,a1){var x=0,w=A.i(y.y),v,u=2,t,s,r,q,p,o,n,m,l,k,j
+var $async$MJ=A.j(function(a2,a3){if(a2===1){t=a3
 x=u}while(true)switch(x){case 0:u=4
 s=A.aN("GET",A.ad($.ah+"/Purchase/GetAllPurchaseInvoices?fromDate="+d+"&toDate="+e+"&filter="+h+"&vendor="+a1+"&billNo="+f+"&officeId="+i+"&chkAllInvoices="+g+"&vIsPGP=false",0,null))
 x=7
-return A.c(J.aO(s),$async$MV)
+return A.c(J.aO(s),$async$MJ)
 case 7:r=a3
 x=8
-return A.c(C.E.ae(r.w),$async$MV)
+return A.c(C.E.ae(r.w),$async$MJ)
 case 8:q=a3
 x=r.b===200?9:10
 break
 case 9:l=C.k.C(0,q,null)
 x=11
-return A.c(y.i.b(l)?l:A.bR(l,y.b),$async$MV)
+return A.c(y.i.b(l)?l:A.bS(l,y.b),$async$MJ)
 case 11:p=a3
 o=A.b([],y.h)
 for(l=J.aZ(J.A(p,"data"));l.N();){n=l.ga1(l)
-J.cd(o,B.eHy(n))}v=new A.x(o,1,null,null,y.y)
+J.cd(o,B.eHl(n))}v=new A.x(o,1,null,null,y.y)
 x=1
 break
 case 10:l=A.W(C.k.C(0,q,null),y.n)
@@ -133,25 +133,25 @@ case 3:x=2
 break
 case 6:case 1:return A.f(v,w)
 case 2:return A.e(t,w)}})
-return A.h($async$MV,w)},
-Hq(d,e){return B.eXB(d,!1)},
-eXB(d,e){var x=0,w=A.i(y.z),v,u=2,t,s,r,q,p,o,n,m,l
-var $async$Hq=A.j(function(f,g){if(f===1){t=g
+return A.h($async$MJ,w)},
+Hp(d,e){return B.eXo(d,!1)},
+eXo(d,e){var x=0,w=A.i(y.z),v,u=2,t,s,r,q,p,o,n,m,l
+var $async$Hp=A.j(function(f,g){if(f===1){t=g
 x=u}while(true)switch(x){case 0:u=4
 s=A.aN("GET",A.ad($.ah+"/Purchase/GetPurchaseInvoiceById?invoiceId="+d+"&isPGP=false",0,null))
 x=7
-return A.c(J.aO(s),$async$Hq)
+return A.c(J.aO(s),$async$Hp)
 case 7:r=g
 x=8
-return A.c(C.E.ae(r.w),$async$Hq)
+return A.c(C.E.ae(r.w),$async$Hp)
 case 8:q=g
 x=r.b===200?9:10
 break
 case 9:n=C.k.C(0,q,null)
 x=11
-return A.c(y.i.b(n)?n:A.bR(n,y.b),$async$Hq)
+return A.c(y.i.b(n)?n:A.bS(n,y.b),$async$Hp)
 case 11:p=g
-n=B.eHy(J.A(p,"data"))
+n=B.eHl(J.A(p,"data"))
 v=new A.x(n,1,null,null,y.z)
 x=1
 break
@@ -175,14 +175,14 @@ case 3:x=2
 break
 case 6:case 1:return A.f(v,w)
 case 2:return A.e(t,w)}})
-return A.h($async$Hq,w)}},D
+return A.h($async$Hp,w)}},D
 J=c[1]
 A=c[0]
 C=c[2]
 B=a.updateHolder(c[243],B)
 D=c[269]
 var z=a.updateTypes(["mQ(@)"])
-B.bxz.prototype={
+B.bxl.prototype={
 $1(b8){var x,w,v,u,t,s,r,q,p,o,n,m=J.aI(b8),l=m.i(b8,"PurchaseId"),k=m.i(b8,"ProductId"),j=m.i(b8,"PackingId"),i=m.i(b8,"Multiplier"),h=m.i(b8,"QtyPack"),g=m.i(b8,"QtyLose"),f=m.i(b8,"BnsLose"),e=m.i(b8,"PricePack"),d=m.i(b8,"DiscRatio"),a0=m.i(b8,"DiscValPack"),a1=m.i(b8,"DiscValLose"),a2=m.i(b8,"OfferDiscount"),a3=m.i(b8,"STaxRatio"),a4=m.i(b8,"STaxValPack"),a5=m.i(b8,"IsValueB4Ratio"),a6=m.i(b8,"IsSTaxOnBns"),a7=m.i(b8,"IsFTaxExempted"),a8=m.i(b8,"TTLValue"),a9=m.i(b8,"TTLSTax"),b0=m.i(b8,"TTLFTax"),b1=m.i(b8,"TTITax"),b2=m.i(b8,"ExtraFTaxBns"),b3=m.i(b8,"ExtraSTaxBns"),b4=m.i(b8,"PerUnitCostLose"),b5=m.i(b8,"IsFreeProduct"),b6=m.i(b8,"IsDeleted"),b7=m.i(b8,"CustomerId")
 if(b7==null)b7=" "
 x=m.i(b8,"OfferID")
@@ -196,9 +196,9 @@ q=m.i(b8,"SizeID")
 p=m.i(b8,"ColorID")
 o=m.i(b8,"PackingName")
 n=m.i(b8,"ProductName")
-return D.eHw(u,f,p,b7,v,d,a1,a0,b2,b3,t,b6,a7,b5,w,a6,a5,r,i,m.i(b8,"NetVal"),a2,x,j,o,b4,e,k,n,l,g,h,null,a3,a4,q,b1,b0,a9,a8,s)},
+return D.eHj(u,f,p,b7,v,d,a1,a0,b2,b3,t,b6,a7,b5,w,a6,a5,r,i,m.i(b8,"NetVal"),a2,x,j,o,b4,e,k,n,l,g,h,null,a3,a4,q,b1,b0,a9,a8,s)},
 $S:z+0};(function inheritance(){var x=a.inherit
-x(B.bxz,A.b0)})()
-var y={y:A.H("x<q<k8>>"),z:A.H("x<@>"),i:A.H("t<@>"),h:A.H("m<k8>"),n:A.H("q<k8>"),u:A.H("mQ"),b:A.H("@"),d:A.H("q<@>?")}};
+x(B.bxl,A.b0)})()
+var y={y:A.H("x<q<k7>>"),z:A.H("x<@>"),i:A.H("t<@>"),h:A.H("m<k7>"),n:A.H("q<k7>"),u:A.H("mQ"),b:A.H("@"),d:A.H("q<@>?")}};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_429",e:"endPart",h:b})})($__dart_deferred_initializers__,"/lV34rCSyCLa9lP4fDpR6qV41RU=");
+a.eventLog.push({p:"main.dart.js_429",e:"endPart",h:b})})($__dart_deferred_initializers__,"HLdl9WYT93EYwbs+tjoTXldaTrI=");
