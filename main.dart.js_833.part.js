@@ -1,40 +1,32 @@
 ((a,b,c)=>{a[b]=a[b]||{}
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_833",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
-$__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,B,C={
-MR(d){return C.eWQ(d)},
-eWQ(d){var x=0,w=A.i(y.j),v,u=2,t,s,r,q,p,o,n,m,l
-var $async$MR=A.j(function(e,f){if(e===1){t=f
+$__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,C,D,E,B={
+Aq(d,e){return B.eXT(d,e)},
+eXT(d,e){var x=0,w=A.i(y.h),v,u=2,t,s,r,q,p,o,n,m
+var $async$Aq=A.j(function(f,g){if(f===1){t=g
 x=u}while(true)switch(x){case 0:u=4
-s=A.aN("GET",A.ad($.ah+"/Accounts/GetNextCPVNo?officeId="+d,0,null))
+s=A.ad($.ah+"/Payroll/GetEmployeeById?employeeId="+d+"&isAccountNo="+e,0,null)
 x=7
-return A.c(J.aO(s),$async$MR)
-case 7:r=f
-x=8
-return A.c(B.E.ae(r.w),$async$MR)
-case 8:q=f
-x=r.b===200?9:10
-break
-case 9:n=B.k.C(0,q,null)
-x=11
-return A.c(y.i.b(n)?n:A.bS(n,y.b),$async$MR)
-case 11:p=f
-n=J.A(p,"data")
-v=new A.x(n,1,null,null,y.j)
+return A.c(D.cM(s,null),$async$Aq)
+case 7:r=g
+if(r.b===200){o=r
+q=C.k.C(0,A.aQ(J.A(A.aP(o.e).c.a,"charset")).a9(0,o.w),null)
+o=E.ewC(J.A(q,"data"))
+v=new A.x(o,1,null,null,y.h)
 x=1
-break
-case 10:n=A.W(B.k.C(0,q,null),y.b)
-v=n
+break}else{o=r
+o=A.X(C.k.C(0,A.aQ(J.A(A.aP(o.e).c.a,"charset")).a9(0,o.w),null),y.e)
+v=o
 x=1
-break
-u=2
+break}u=2
 x=6
 break
 case 4:u=3
-l=t
-o=A.U(l)
-n=J.u(o)
-v=new A.x(null,0,n,null,y.j)
+m=t
+p=A.V(m)
+o=J.u(p)
+v=new A.x(null,0,o,null,y.h)
 x=1
 break
 x=6
@@ -43,12 +35,14 @@ case 3:x=2
 break
 case 6:case 1:return A.f(v,w)
 case 2:return A.e(t,w)}})
-return A.h($async$MR,w)}}
+return A.h($async$Aq,w)}}
 J=c[1]
 A=c[0]
-B=c[2]
-C=a.updateHolder(c[216],C)
+C=c[2]
+D=c[356]
+E=c[305]
+B=a.updateHolder(c[281],B)
 var z=a.updateTypes([])
-var y={j:A.H("x<@>"),i:A.H("t<@>"),b:A.H("@")}};
+var y={h:A.I("x<ee>"),e:A.I("ee")}};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_833",e:"endPart",h:b})})($__dart_deferred_initializers__,"b5Ud+LHrVd1ki/9aodz2O5fxoVQ=");
+a.eventLog.push({p:"main.dart.js_833",e:"endPart",h:b})})($__dart_deferred_initializers__,"ZqYZsZ8j8tFSbqDVfMtWYckpDoQ=");

@@ -2,8 +2,8 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_426",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var A,B
-A=c[324]
-B=c[658]
-var z=a.updateTypes([]);(function constants(){B.Tm=new A.kw("Order",null)})()};
+A=c[0]
+B=c[694]
+var z=a.updateTypes([]);(function constants(){B.A6=new A.z("Bill No",null,null,null,null,null,null,null,null,null,null)})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_426",e:"endPart",h:b})})($__dart_deferred_initializers__,"NEr2ppeFx06IGqW3qlEsL7ZO6LY=");
+a.eventLog.push({p:"main.dart.js_426",e:"endPart",h:b})})($__dart_deferred_initializers__,"VFM4MRyy4aUNvWXWKfNVV7CPG2k=");

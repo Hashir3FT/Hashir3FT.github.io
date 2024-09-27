@@ -1,43 +1,34 @@
 ((a,b,c)=>{a[b]=a[b]||{}
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_86",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
-$__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,C,B={bA:function bA(d,e){this.a=d
-this.b=e},
-kF(d){return B.eNJ(d)},
-eNJ(d){var x=0,w=A.i(y.c),v,u=2,t,s,r,q,p,o,n,m,l,k,j,i,h,g
-var $async$kF=A.j(function(e,f){if(e===1){t=f
+$__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,B,C={
+Ww(){var x=0,w=A.i(y.j),v,u=2,t,s,r,q,p,o,n,m,l
+var $async$Ww=A.j(function(d,e){if(d===1){t=e
 x=u}while(true)switch(x){case 0:u=4
-s=A.aO("GET",A.ac($.ag+"/Coding/GetAllAreas?areaId="+d,0,null))
+s=A.aN("GET",A.ad($.ah+"/Coding/GetNextSectorId",0,null))
 x=7
-return A.c(J.aP(s),$async$kF)
-case 7:r=f
+return A.c(J.aO(s),$async$Ww)
+case 7:r=e
 x=8
-return A.c(C.F.af(r.w),$async$kF)
-case 8:q=f
-if(r.b===200){p=C.k.C(0,q,null)
-o=A.b([],y.l)
-for(l=J.aZ(J.B(p,"data"));l.L();){n=l.ga1(l)
-k=n
-j=J.aK(k)
-i=j.i(k,"AreaID")
-if(i==null)i=0
-k=j.i(k,"AreaName")
-if(k==null)k=""
-J.c9(o,new B.bA(i,k))}v=new A.x(o,1,null,null,y.c)
+return A.c(B.E.ag(r.w),$async$Ww)
+case 8:q=e
+if(r.b===200){p=B.k.C(0,q,null)
+n=J.A(p,"data")
+v=new A.x(n,1,null,null,y.j)
 x=1
-break}l=A.Z(C.k.C(0,q,null),y.f)
-v=l
+break}n=A.X(B.k.C(0,q,null),y.b)
+v=n
 x=1
 break
 u=2
 x=6
 break
 case 4:u=3
-g=t
-m=A.W(g)
-A.iI().$1(J.u(m))
-l=J.u(m)
-v=new A.x(null,0,l,null,y.c)
+l=t
+o=A.V(l)
+A.iO().$1(J.u(o))
+n=J.u(o)
+v=new A.x(null,0,n,null,y.j)
 x=1
 break
 x=6
@@ -46,15 +37,56 @@ case 3:x=2
 break
 case 6:case 1:return A.f(v,w)
 case 2:return A.e(t,w)}})
-return A.h($async$kF,w)}}
+return A.h($async$Ww,w)},
+Xg(d,e){var x=0
+return C.f_b(d,e)},
+f_b(d,e){var x=0,w=A.i(y.j),v,u=2,t,s,r,q,p,o,n,m,l,k,j,i
+var $async$Xg=A.j(function(f,g){if(f===1){t=g
+x=u}while(true)switch(x){case 0:j=0
+u=4
+s=A.aN("POST",A.ad($.ah+"/Coding/InsertSector?isOpen="+e+"&userId="+A.p(j),0,null))
+l=y.g
+r=A.a8(["Content-Type","application/json"],l,l)
+q=B.k.cf(d,null)
+s.r.F(0,r)
+J.df(s,q)
+x=7
+return A.c(J.aO(s),$async$Xg)
+case 7:p=g
+x=8
+return A.c(B.E.ag(p.w),$async$Xg)
+case 8:o=g
+if(p.b===200){n=B.k.C(0,o,null)
+l=A.X(n,y.b)
+v=l
+x=1
+break}l=A.X(B.k.C(0,o,null),y.b)
+v=l
+x=1
+break
+u=2
+x=6
+break
+case 4:u=3
+i=t
+m=A.V(i)
+A.iO().$1(J.u(m))
+l=J.u(m)
+v=new A.x(null,0,l,null,y.j)
+x=1
+break
+x=6
+break
+case 3:x=2
+break
+case 6:case 1:return A.f(v,w)
+case 2:return A.e(t,w)}})
+return A.h($async$Xg,w)}}
 J=c[1]
 A=c[0]
-C=c[2]
-B=a.updateHolder(c[313],B)
-B.bA.prototype={
-b_(){return A.a8(["AreaID",this.a,"AreaNAme",this.b],y.g,y.b)}}
-var z=a.updateTypes([]);(function inheritance(){var x=a.inherit
-x(B.bA,A.af)})()
-var y={c:A.E("x<q<bA>>"),l:A.E("m<bA>"),f:A.E("q<bA>"),g:A.E("d"),b:A.E("@")}};
+B=c[2]
+C=a.updateHolder(c[231],C)
+var z=a.updateTypes([])
+var y={j:A.I("x<@>"),g:A.I("d"),b:A.I("@")}};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_86",e:"endPart",h:b})})($__dart_deferred_initializers__,"hpayFdQ90N2hi60exp/M4TYw54k=");
+a.eventLog.push({p:"main.dart.js_86",e:"endPart",h:b})})($__dart_deferred_initializers__,"iIB0u5V0gu2xFus5camm3CklTtM=");

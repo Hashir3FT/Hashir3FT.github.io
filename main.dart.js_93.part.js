@@ -1,41 +1,42 @@
 ((a,b,c)=>{a[b]=a[b]||{}
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_93",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
-$__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,B,D,C={
-fe(d,e,f){return C.eXI(d,e,f)},
-eXI(d,e,a0){var x=0,w=A.i(y.j),v,u=2,t,s,r,q,p,o,n,m,l,k,j,i,h,g,f
-var $async$fe=A.j(function(a1,a2){if(a1===1){t=a2
-x=u}while(true)switch(x){case 0:u=4
-k=y.g
-s=A.a8(["Content-Type","application/json"],k,k)
-k=$.ah
-j=a0==null?0:a0
-i=e==null?0:e
-h=d==null?0:d
-r=A.aN("GET",A.ad(k+"/Coding/GetSectors?townId="+j+"&regionId="+i+"&areaId="+h,0,null))
-r.r.F(0,s)
+$__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,B,C={
+X1(d,e){var x=0
+return C.eZN(d,e)},
+eZN(d,e){var x=0,w=A.i(y.j),v,u=2,t,s,r,q,p,o,n,m,l,k,j,i
+var $async$X1=A.j(function(f,g){if(f===1){t=g
+x=u}while(true)switch(x){case 0:j=0
+u=4
+s=A.aN("POST",A.ad($.ah+"/Coding/InsertOffice?isOpen="+e+"&userId="+A.p(j),0,null))
+l=y.g
+r=A.a8(["Content-Type","application/json"],l,l)
+q=B.k.cf(d.b4(),null)
+s.r.F(0,r)
+J.df(s,q)
 x=7
-return A.c(J.aO(r),$async$fe)
-case 7:q=a2
+return A.c(J.aO(s),$async$X1)
+case 7:p=g
 x=8
-return A.c(B.E.ae(q.w),$async$fe)
-case 8:p=a2
-if(q.b===200){o=B.k.C(0,p,null)
-n=A.b([],y.o)
-for(k=J.aZ(J.A(o,"data"));k.N();){m=k.ga1(k)
-J.cd(n,D.bEG(m))}v=new A.x(n,1,null,null,y.j)
+return A.c(B.E.ag(p.w),$async$X1)
+case 8:o=g
+if(p.b===200){n=B.k.C(0,o,null)
+l=A.X(n,y.b)
+v=l
 x=1
-break}else{k=A.W(B.k.C(0,p,null),y.b)
-v=new A.x(null,0,k.d,null,y.j)
+break}l=A.X(B.k.C(0,o,null),y.b)
+v=l
 x=1
-break}u=2
+break
+u=2
 x=6
 break
 case 4:u=3
-f=t
-l=A.U(f)
-k=J.u(l)
-v=new A.x(null,0,k,null,y.j)
+i=t
+m=A.V(i)
+A.iO().$1(J.u(m))
+l=J.u(m)
+v=new A.x(null,0,l,null,y.j)
 x=1
 break
 x=6
@@ -44,13 +45,12 @@ case 3:x=2
 break
 case 6:case 1:return A.f(v,w)
 case 2:return A.e(t,w)}})
-return A.h($async$fe,w)}}
+return A.h($async$X1,w)}}
 J=c[1]
 A=c[0]
 B=c[2]
-D=c[335]
-C=a.updateHolder(c[334],C)
+C=a.updateHolder(c[226],C)
 var z=a.updateTypes([])
-var y={j:A.H("x<q<aF>>"),o:A.H("m<aF>"),g:A.H("d"),b:A.H("@")}};
+var y={j:A.I("x<@>"),g:A.I("d"),b:A.I("@")}};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_93",e:"endPart",h:b})})($__dart_deferred_initializers__,"4wFTrltBCARUzP1ym10/Q9cz3T0=");
+a.eventLog.push({p:"main.dart.js_93",e:"endPart",h:b})})($__dart_deferred_initializers__,"cQA+ObV62bcOhYUrI0mmDqH0D7o=");

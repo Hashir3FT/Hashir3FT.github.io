@@ -1,13 +1,48 @@
 ((a,b,c)=>{a[b]=a[b]||{}
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_831",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
-$__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,D,A,E
-B=c[0]
-C=c[336]
-D=c[490]
-A=c[448]
-E=c[457]
-var z=a.updateTypes([]);(function constants(){A.uz=new C.ce(E.Wb)
-A.ri=new B.y("Close",null,D.bu,null,null,null,null,null,null,null,null)})()};
+$__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,C,D,E,B={
+r6(d){return B.eZ7(d)},
+eZ7(d){var x=0,w=A.i(y.e),v,u=2,t,s,r,q,p,o,n,m
+var $async$r6=A.j(function(e,f){if(e===1){t=f
+x=u}while(true)switch(x){case 0:u=4
+s=A.ad($.ah+"/Payroll/GetShiftById?shiftId="+d,0,null)
+x=7
+return A.c(D.cM(s,null),$async$r6)
+case 7:r=f
+if(r.b===200){o=r
+q=C.k.C(0,A.aQ(J.A(A.aP(o.e).c.a,"charset")).a9(0,o.w),null)
+o=E.eJU(J.A(q,"data"))
+v=new A.x(o,1,null,null,y.e)
+x=1
+break}else{o=r
+o=A.X(C.k.C(0,A.aQ(J.A(A.aP(o.e).c.a,"charset")).a9(0,o.w),null),y.a)
+v=o
+x=1
+break}u=2
+x=6
+break
+case 4:u=3
+m=t
+p=A.V(m)
+o=J.u(p)
+v=new A.x(null,0,o,null,y.e)
+x=1
+break
+x=6
+break
+case 3:x=2
+break
+case 6:case 1:return A.f(v,w)
+case 2:return A.e(t,w)}})
+return A.h($async$r6,w)}}
+J=c[1]
+A=c[0]
+C=c[2]
+D=c[356]
+E=c[324]
+B=a.updateHolder(c[306],B)
+var z=a.updateTypes([])
+var y={e:A.I("x<bN>"),a:A.I("bN")}};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_831",e:"endPart",h:b})})($__dart_deferred_initializers__,"LAkwFFVlBrB4zpCHM0PKx7gG/MQ=");
+a.eventLog.push({p:"main.dart.js_831",e:"endPart",h:b})})($__dart_deferred_initializers__,"f9Zu+5P1j3R6cRS49deCsNsjE3Q=");

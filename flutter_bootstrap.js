@@ -8,9 +8,79 @@ if (!window._flutter) {
 }
 _flutter.buildConfig = {"engineRevision":"c9b9d5780da342eb3f0f5e439a7db06f7d112575","builds":[{"compileTarget":"dart2js","renderer":"canvaskit","mainJsPath":"main.dart.js"}]};
 
+const serviceWorkerVersion =  "3618236681"
+<!-- Loading indicator -->
 
+const loading = document.createElement('div');
+loading.id = 'loading';
+loading.innerHTML = '<img src="icons/web-icon.png" alt="Loading indicator..." />';
+
+const style = document.createElement('style');
+style.textContent = ` body {
+                           inset: 0;
+                           overflow: hidden;
+                           margin: 0;
+                           padding: 0;
+                           position: fixed;
+                         }
+
+                         #loading {
+                           align-items: center;
+                           display: flex;
+                           height: 100%;
+                           justify-content: center;
+                           width: 100%;
+                         }
+
+                         #loading img {
+                           animation: 1s ease-in-out 0s infinite alternate breathe;
+                           opacity: .66;
+                           transition: opacity .4s;
+                         }
+
+                         #loading.main_done img {
+                           opacity: 1;
+                         }
+
+                         #loading.init_done img {
+                           animation: .33s ease-in-out 0s 1 forwards zooooom;
+                           opacity: .05;
+                         }
+
+                         @keyframes breathe {
+                           from {
+                             transform: scale(1)
+                           }
+
+                           to {
+                             transform: scale(0.95)
+                           }
+                         }
+
+                         @keyframes zooooom {
+                           from {
+                             transform: scale(1)
+                           }
+
+                           to {
+                             transform: scale(0.01)
+                           }
+                         }`
+
+
+document.head.appendChild(style);
+document.body.appendChild(loading);
+var load = document.querySelector('#loading');
 _flutter.loader.load({
-  serviceWorkerSettings: {
-    serviceWorkerVersion: "2593069002"
+  onEntrypointLoaded: async function(engineInitializer) {
+  load.classList.add('main_done');
+    const appRunner = await engineInitializer.initializeEngine();
+    load.classList.add('init_done');
+    if (document.body.contains(loading)) {
+       document.body.removeChild(loading);
+    }
+    await appRunner.runApp();
   }
 });
+
+
