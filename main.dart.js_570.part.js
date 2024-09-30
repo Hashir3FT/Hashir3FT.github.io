@@ -1,49 +1,63 @@
 ((a,b,c)=>{a[b]=a[b]||{}
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_570",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
-$__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,B,C={
-vl(d){return C.eXh(d)},
-eXh(d){var x=0,w=A.i(y.m),v,u=2,t,s,r,q,p,o,n,m,l,k,j
-var $async$vl=A.j(function(e,f){if(e===1){t=f
-x=u}while(true)switch(x){case 0:u=4
-s=A.aN("GET",A.ad($.ah+"/Security/GetUsers?search="+d,0,null))
-x=7
-return A.c(J.aO(s),$async$vl)
-case 7:r=f
-x=8
-return A.c(B.E.ag(r.w),$async$vl)
-case 8:q=f
-if(r.b===200){p=B.k.C(0,q,null)
-o=A.b([],y.p)
-for(l=J.aZ(J.A(p,"data"));l.N();){n=l.ga1(l)
-J.cb(o,A.eyU(n))}v=new A.x(o,1,null,null,y.m)
-x=1
-break}l=A.X(B.k.C(0,q,null),y.o)
-v=l
-x=1
-break
-u=2
-x=6
-break
-case 4:u=3
-j=t
-m=A.V(j)
-l=J.u(m)
-v=new A.x(null,0,l,null,y.m)
-x=1
-break
-x=6
-break
-case 3:x=2
-break
-case 6:case 1:return A.f(v,w)
-case 2:return A.e(t,w)}})
-return A.h($async$vl,w)}}
-J=c[1]
-A=c[0]
-B=c[2]
-C=a.updateHolder(c[291],C)
-var z=a.updateTypes([])
-var y={m:A.I("x<q<eD>>"),p:A.I("n<eD>"),o:A.I("q<eD>")}};
+$__dart_deferred_initializers__.current=function(a,b,c,$){var B,A={pN:function pN(d,e,f,g,h,i,j,k,l,m,n,o,p,q){var _=this
+_.a=d
+_.b=e
+_.c=f
+_.d=g
+_.e=h
+_.f=i
+_.r=j
+_.w=k
+_.x=l
+_.y=m
+_.z=n
+_.Q=o
+_.as=p
+_.at=q},bPl:function bPl(){},bPm:function bPm(){},bPn:function bPn(){},nG:function nG(d,e,f,g,h,i,j,k,l,m,n){var _=this
+_.a=d
+_.b=e
+_.c=f
+_.d=g
+_.e=h
+_.f=i
+_.r=j
+_.w=k
+_.x=l
+_.y=m
+_.z=n}}
+B=c[0]
+A=a.updateHolder(c[254],A)
+A.pN.prototype={
+b5(){var x,w,v,u=this,t=u.b,s=u.d,r=u.c,q=u.a,p=u.z,o=u.Q
+if(o==null)o=null
+else{x=B.aq(o).k("ak<1,bg<d,@>>")
+x=B.a4(new B.ak(o,new A.bPl(),x),!0,x.k("aA.E"))
+o=x}x=u.as
+if(x==null)x=null
+else{w=B.aq(x).k("ak<1,bg<d,@>>")
+w=B.a4(new B.ak(x,new A.bPm(),w),!0,w.k("aA.E"))
+x=w}w=u.at
+if(w==null)w=null
+else{v=B.aq(w).k("ak<1,bg<d,@>>")
+v=B.a4(new B.ak(w,new A.bPn(),v),!0,v.k("aA.E"))
+w=v}return B.a8(["InvoiceDate",t,"OfficeID",s,"IsPosted",u.f,"IsPosted2",u.r,"IsPosted3",u.w,"IsPosted4",u.x,"Narration",r,"IDOffice",u.y,"InvoiceId",q,"Amount",p,"IsMultiInvoice",u.e,"ListBody",o,"ListBatch",x,"ListStore",w],y.g,y.b)}}
+A.nG.prototype={
+b5(){var x=this
+return B.a8(["SerialNo",x.a,"InvoiceId",x.b,"ProductId",x.c,"PackingId",x.e,"Qty",x.f,"Rate",x.r,"QtyL",x.w,"Value",x.x,"ProductName",x.d,"PackingName",x.y,"Multiplier",x.z],y.g,y.b)}}
+var z=a.updateTypes(["bg<d,@>(nG)","bg<d,@>(zH)","bg<d,@>(zI)"])
+A.bPl.prototype={
+$1(d){return d.b5()},
+$S:z+0}
+A.bPm.prototype={
+$1(d){return d.b5()},
+$S:z+1}
+A.bPn.prototype={
+$1(d){return d.b5()},
+$S:z+2};(function inheritance(){var x=a.inheritMany
+x(B.ag,[A.pN,A.nG])
+x(B.b0,[A.bPl,A.bPm,A.bPn])})()
+var y={g:B.I("d"),b:B.I("@")}};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_570",e:"endPart",h:b})})($__dart_deferred_initializers__,"9wl0ZpdkEZGJpYSoCdS1fr5MY0g=");
+a.eventLog.push({p:"main.dart.js_570",e:"endPart",h:b})})($__dart_deferred_initializers__,"8efyku1kwBEGcOhArlOe0UgDMtk=");

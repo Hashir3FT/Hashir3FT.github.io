@@ -3,8 +3,7 @@ a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_177",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var A,B
 A=c[0]
-B=c[534]
-var z=a.updateTypes([]);(function constants(){B.a_r=new A.z("Labour",null,null,null,null,null,null,null,null,null,null)
-B.Sj=new A.cJ("WHT%",!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!1,!1,null)})()};
+B=c[531]
+var z=a.updateTypes([]);(function constants(){B.wo=new A.cE(59026,"MaterialIcons",null,!1)})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_177",e:"endPart",h:b})})($__dart_deferred_initializers__,"ebh4SD0BnWqYG8rrIp3jrDRMvt8=");
+a.eventLog.push({p:"main.dart.js_177",e:"endPart",h:b})})($__dart_deferred_initializers__,"Byg+0PdLDDY3LYaU398qeliH9T4=");

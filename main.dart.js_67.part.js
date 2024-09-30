@@ -12,9 +12,9 @@ J=c[1]
 B=c[0]
 A=a.updateHolder(c[340],A)
 A.an.prototype={
-b4(){return B.a8(["TownID",this.a,"TownName",this.b],y.g,y.b)}}
+b5(){return B.a8(["TownID",this.a,"TownName",this.b],y.g,y.b)}}
 var z=a.updateTypes([]);(function inheritance(){var x=a.inherit
 x(A.an,B.ag)})()
 var y={g:B.I("d"),b:B.I("@")}};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_67",e:"endPart",h:b})})($__dart_deferred_initializers__,"XsGdOF7sO3s/Q/ASxirRlBY1oBI=");
+a.eventLog.push({p:"main.dart.js_67",e:"endPart",h:b})})($__dart_deferred_initializers__,"sfOleME0VMpNoenxHGbWDkh/mp0=");

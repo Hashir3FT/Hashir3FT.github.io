@@ -1,14 +1,48 @@
 ((a,b,c)=>{a[b]=a[b]||{}
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_798",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
-$__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,D,A
-B=c[0]
+$__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,C,D,E,B={
+r7(d){return B.eZ7(d)},
+eZ7(d){var x=0,w=A.i(y.e),v,u=2,t,s,r,q,p,o,n,m
+var $async$r7=A.j(function(e,f){if(e===1){t=f
+x=u}while(true)switch(x){case 0:u=4
+s=A.ad($.ah+"/Payroll/GetShiftById?shiftId="+d,0,null)
+x=7
+return A.c(D.cM(s,null),$async$r7)
+case 7:r=f
+if(r.b===200){o=r
+q=C.k.C(0,A.aQ(J.z(A.aP(o.e).c.a,"charset")).a9(0,o.w),null)
+o=E.eJU(J.z(q,"data"))
+v=new A.x(o,1,null,null,y.e)
+x=1
+break}else{o=r
+o=A.X(C.k.C(0,A.aQ(J.z(A.aP(o.e).c.a,"charset")).a9(0,o.w),null),y.a)
+v=o
+x=1
+break}u=2
+x=6
+break
+case 4:u=3
+m=t
+p=A.V(m)
+o=J.u(p)
+v=new A.x(null,0,o,null,y.e)
+x=1
+break
+x=6
+break
+case 3:x=2
+break
+case 6:case 1:return A.f(v,w)
+case 2:return A.e(t,w)}})
+return A.h($async$r7,w)}}
+J=c[1]
+A=c[0]
 C=c[2]
-D=c[489]
-A=c[481]
-var z=a.updateTypes([]);(function constants(){A.aDd=new B.cJ("Balance Greater Than",!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!1,!1,null)
-A.wl=new B.k(1,C.e,A.aDd,null)
-A.to=new B.z("Sort By Name",null,null,null,null,null,null,null,null,null,null)
-A.Ac=new B.z("Till Date",null,D.bz,null,null,null,null,null,null,null,null)})()};
+D=c[356]
+E=c[324]
+B=a.updateHolder(c[306],B)
+var z=a.updateTypes([])
+var y={e:A.I("x<bN>"),a:A.I("bN")}};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_798",e:"endPart",h:b})})($__dart_deferred_initializers__,"URWr/EvhAwhIIdkdvrLe52TOmlY=");
+a.eventLog.push({p:"main.dart.js_798",e:"endPart",h:b})})($__dart_deferred_initializers__,"jc/N1Tj7ySo9jq/WzpTG21oTMcQ=");

@@ -19,10 +19,10 @@ J=c[1]
 B=c[0]
 A=a.updateHolder(c[349],A)
 A.cR.prototype={
-b4(){var x=this
+b5(){var x=this
 return B.a8(["PackingId",x.a,"PackingName",x.b,"Abbrevation",x.c,"Multiplier",x.d],y.g,y.b)}}
 var z=a.updateTypes([]);(function inheritance(){var x=a.inherit
 x(A.cR,B.ag)})()
 var y={g:B.I("d"),b:B.I("@")}};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_138",e:"endPart",h:b})})($__dart_deferred_initializers__,"XFhrODC1FEM0bM8+Bg4pTjL6uXU=");
+a.eventLog.push({p:"main.dart.js_138",e:"endPart",h:b})})($__dart_deferred_initializers__,"4Cu87LzVkwHR+o5MNGnBw24fVh4=");

@@ -31,10 +31,10 @@ J=c[1]
 B=c[0]
 A=a.updateHolder(c[224],A)
 A.l7.prototype={
-b4(){var x=this
+b5(){var x=this
 return B.a8(["CustomerId",x.a,"CompanyId",x.c,"PurDiscRatio",x.e,"SalDiscRatio",x.f,"SalDiscRatio2",x.x],y.g,y.b)}}
 var z=a.updateTypes([]);(function inheritance(){var x=a.inherit
 x(A.l7,B.ag)})()
 var y={g:B.I("d"),b:B.I("@")}};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_106",e:"endPart",h:b})})($__dart_deferred_initializers__,"zkIDMlCgoY94VHLV8QwUl/A8Tls=");
+a.eventLog.push({p:"main.dart.js_106",e:"endPart",h:b})})($__dart_deferred_initializers__,"GwC1hJYa1WtlZkcrEu7w6mlGykY=");

@@ -44,13 +44,13 @@ x=7
 return A.c(J.aO(s),$async$cB)
 case 7:r=e
 x=8
-return A.c(C.E.ag(r.w),$async$cB)
+return A.c(C.E.ai(r.w),$async$cB)
 case 8:q=e
 if(r.b===200){p=C.k.C(0,q,null)
 o=A.b([],y.h)
-for(k=J.aZ(J.A(p,"data"));k.N();){n=k.ga1(k)
+for(k=J.aZ(J.z(p,"data"));k.O();){n=k.ga2(k)
 m=B.eHz(n)
-J.cb(o,m)}v=new A.x(o,1,null,null,y.p)
+J.cc(o,m)}v=new A.x(o,1,null,null,y.p)
 x=1
 break}k=A.X(C.k.C(0,q,null),y.b)
 v=new A.x(null,0,k.d,null,y.p)
@@ -79,10 +79,10 @@ A=c[0]
 C=c[2]
 B=a.updateHolder(c[359],B)
 B.w.prototype={
-b4(){var x=this
+b5(){var x=this
 return A.a8(["OfficeID",x.a,"Description",x.b,"OffAddress",x.c,"OffPhone1",x.d,"OffPhone2",x.e,"OffMobile",x.f,"OffFax",x.r,"OffEmail",x.w,"OffWeb",x.x,"OffLogo",x.y,"OffBankDetail",x.z],y.g,y.b)}}
 var z=a.updateTypes([]);(function inheritance(){var x=a.inherit
 x(B.w,A.ag)})()
 var y={p:A.I("x<q<w>>"),h:A.I("n<w>"),g:A.I("d"),b:A.I("@")}};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_65",e:"endPart",h:b})})($__dart_deferred_initializers__,"+zYIqDnLhJFg4U6saxD3ovMQJ0Q=");
+a.eventLog.push({p:"main.dart.js_65",e:"endPart",h:b})})($__dart_deferred_initializers__,"a2NbcgfYUcyRn7Px+7W28QFEnc8=");
