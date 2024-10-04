@@ -2,7 +2,7 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_68",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var J,B,A={
-bG4(d){var x,w,v,u,t,s=J.aI(d),r=s.i(d,"SectorID")
+bG1(d){var x,w,v,u,t,s=J.aI(d),r=s.i(d,"SectorID")
 if(r==null)r=0
 x=s.i(d,"SectorName")
 if(x==null)x=""
@@ -15,8 +15,8 @@ if(u==null)u=0
 t=s.i(d,"AreaID")
 if(t==null)t=0
 s=J.J(s.i(d,"Selected"),"False")
-return new A.aF(r,w,v,u,t,x,!s)},
-aF:function aF(d,e,f,g,h,i,j){var _=this
+return new A.aE(r,w,v,u,t,x,!s)},
+aE:function aE(d,e,f,g,h,i,j){var _=this
 _.a=d
 _.b=e
 _.c=f
@@ -27,11 +27,11 @@ _.r=j}}
 J=c[1]
 B=c[0]
 A=a.updateHolder(c[336],A)
-A.aF.prototype={
-b5(){var x=this
+A.aE.prototype={
+b6(){var x=this
 return B.a8(["SectorID",x.a,"SectorName",x.f,"TownID",x.b,"SectorOrder",x.c,"RegionID",x.d,"AreaID",x.e,"Selected",x.r],y.g,y.b)}}
 var z=a.updateTypes([]);(function inheritance(){var x=a.inherit
-x(A.aF,B.ag)})()
+x(A.aE,B.ag)})()
 var y={g:B.I("d"),b:B.I("@")}};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_68",e:"endPart",h:b})})($__dart_deferred_initializers__,"1ivmc67q56qQ6ASVShFVh7JEBko=");
+a.eventLog.push({p:"main.dart.js_68",e:"endPart",h:b})})($__dart_deferred_initializers__,"dvs/L3asivMf4PLAmMDiwvRuYyY=");

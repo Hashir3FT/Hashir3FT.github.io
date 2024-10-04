@@ -2,7 +2,7 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_67",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var J,B,A={
-eyN(d){var x=J.aI(d),w=x.i(d,"TownID")
+eya(d){var x=J.aI(d),w=x.i(d,"TownID")
 if(w==null)w=0
 x=x.i(d,"TownName")
 return new A.an(w,x==null?"":x)},
@@ -12,9 +12,9 @@ J=c[1]
 B=c[0]
 A=a.updateHolder(c[340],A)
 A.an.prototype={
-b5(){return B.a8(["TownID",this.a,"TownName",this.b],y.g,y.b)}}
+b6(){return B.a8(["TownID",this.a,"TownName",this.b],y.g,y.b)}}
 var z=a.updateTypes([]);(function inheritance(){var x=a.inherit
 x(A.an,B.ag)})()
 var y={g:B.I("d"),b:B.I("@")}};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_67",e:"endPart",h:b})})($__dart_deferred_initializers__,"sfOleME0VMpNoenxHGbWDkh/mp0=");
+a.eventLog.push({p:"main.dart.js_67",e:"endPart",h:b})})($__dart_deferred_initializers__,"hN1k0mzm4Qvl9EWUkVTIEd2mnRw=");

@@ -1,10 +1,13 @@
 ((a,b,c)=>{a[b]=a[b]||{}
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_526",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
-$__dart_deferred_initializers__.current=function(a,b,c,$){var A,B,C
-A=c[0]
-B=c[2]
-C=c[695]
-var z=a.updateTypes([]);(function constants(){C.ix=new A.cc("Missing Information","Please select product packing",B.ak,null,null,null,null)})()};
+$__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,D,A
+B=c[0]
+C=c[2]
+D=c[325]
+A=c[613]
+var z=a.updateTypes([]);(function constants(){A.po=new B.cF(57857,"MaterialIcons",null,!1)
+A.Yb=new D.n0("Party Details",null)
+A.Rr=new B.dO("Oops","An error occurred while processing the request.",C.B,null,null,null,null)})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_526",e:"endPart",h:b})})($__dart_deferred_initializers__,"Z92iFO51+p3U8R/FlB9qxcyV4Jg=");
+a.eventLog.push({p:"main.dart.js_526",e:"endPart",h:b})})($__dart_deferred_initializers__,"zt7CV1Q5kzSg+2upsawMANF3XbU=");

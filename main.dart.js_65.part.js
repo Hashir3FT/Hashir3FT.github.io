@@ -2,7 +2,7 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_65",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,C,B={
-eHz(d){var x,w,v,u,t,s,r,q,p,o=J.aI(d),n=o.i(d,"OfficeID")
+eGX(d){var x,w,v,u,t,s,r,q,p,o=J.aI(d),n=o.i(d,"OfficeID")
 if(n==null)n=0
 x=o.i(d,"Description")
 if(x==null)x=""
@@ -44,15 +44,15 @@ x=7
 return A.c(J.aO(s),$async$cB)
 case 7:r=e
 x=8
-return A.c(C.E.ai(r.w),$async$cB)
+return A.c(C.E.ak(r.w),$async$cB)
 case 8:q=e
 if(r.b===200){p=C.k.C(0,q,null)
 o=A.b([],y.h)
-for(k=J.aZ(J.z(p,"data"));k.O();){n=k.ga2(k)
-m=B.eHz(n)
-J.cc(o,m)}v=new A.x(o,1,null,null,y.p)
+for(k=J.b_(J.A(p,"data"));k.N();){n=k.ga3(k)
+m=B.eGX(n)
+J.cd(o,m)}v=new A.x(o,1,null,null,y.p)
 x=1
-break}k=A.X(C.k.C(0,q,null),y.b)
+break}k=A.W(C.k.C(0,q,null),y.b)
 v=new A.x(null,0,k.d,null,y.p)
 x=1
 break
@@ -62,8 +62,8 @@ break
 case 4:u=3
 i=t
 l=A.V(i)
-A.iO().$1(J.u(l))
-k=J.u(l)
+A.iO().$1(J.v(l))
+k=J.v(l)
 v=new A.x(null,0,k,null,y.p)
 x=1
 break
@@ -79,10 +79,10 @@ A=c[0]
 C=c[2]
 B=a.updateHolder(c[359],B)
 B.w.prototype={
-b5(){var x=this
+b6(){var x=this
 return A.a8(["OfficeID",x.a,"Description",x.b,"OffAddress",x.c,"OffPhone1",x.d,"OffPhone2",x.e,"OffMobile",x.f,"OffFax",x.r,"OffEmail",x.w,"OffWeb",x.x,"OffLogo",x.y,"OffBankDetail",x.z],y.g,y.b)}}
 var z=a.updateTypes([]);(function inheritance(){var x=a.inherit
 x(B.w,A.ag)})()
 var y={p:A.I("x<q<w>>"),h:A.I("n<w>"),g:A.I("d"),b:A.I("@")}};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_65",e:"endPart",h:b})})($__dart_deferred_initializers__,"a2NbcgfYUcyRn7Px+7W28QFEnc8=");
+a.eventLog.push({p:"main.dart.js_65",e:"endPart",h:b})})($__dart_deferred_initializers__,"9nB3/bF4Mmdy4cWbST9odIuSuDE=");
