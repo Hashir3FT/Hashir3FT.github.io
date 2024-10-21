@@ -8,7 +8,7 @@ if (!window._flutter) {
 }
 _flutter.buildConfig = {"engineRevision":"36335019a8eab588c3c2ea783c618d90505be233","builds":[{"compileTarget":"dart2js","renderer":"canvaskit","mainJsPath":"main.dart.js"}]};
 
-const serviceWorkerVersion =  "850718455"
+const serviceWorkerVersion =  "1099489302"
 <!-- Loading indicator -->
 
 const loading = document.createElement('div');

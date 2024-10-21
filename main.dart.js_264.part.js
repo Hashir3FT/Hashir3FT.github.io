@@ -2,23 +2,23 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_264",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,B,C={
-jW(d){return C.eX0(d)},
-eX0(d){var x=0,w=A.i(y.b),v,u=2,t,s,r,q,p,o,n,m,l
-var $async$jW=A.j(function(e,f){if(e===1){t=f
+il(d,e,f,g,h){return C.eXL(d,e,f,g,h)},
+eXL(d,e,f,g,h){var x=0,w=A.k(y.b),v,u=2,t,s,r,q,p,o,n,m,l
+var $async$il=A.l(function(i,j){if(i===1){t=j
 x=u}while(true)switch(x){case 0:u=4
-s=A.aN("GET",A.ad($.ah+"/Coding/GetOfficeById?officeId="+d,0,null))
+s=A.aO("GET",A.ad($.ah+"/Sale/GetCurrentStock?productId="+d+"&isSalesman="+e+"&salesmanId="+h+"&officeId="+f+"&vOldStock="+g,0,null))
 x=7
-return A.c(J.aO(s),$async$jW)
-case 7:r=f
+return A.d(J.aQ(s),$async$il)
+case 7:r=j
 x=8
-return A.c(B.E.ae(r.w),$async$jW)
-case 8:q=f
+return A.d(B.E.am(r.w),$async$il)
+case 8:q=j
 if(r.b===200){p=B.k.C(0,q,null)
-n=D.eG9(J.A(J.A(p,"data"),0))
+n=J.A(p,"data")
 v=new A.x(n,1,null,null,y.b)
 x=1
-break}n=A.W(B.k.C(0,q,null),y.e)
-v=new A.x(null,0,n.d,null,y.b)
+break}n=A.X(B.k.C(0,q,null),y.e)
+v=n
 x=1
 break
 u=2
@@ -26,8 +26,7 @@ x=6
 break
 case 4:u=3
 l=t
-o=A.U(l)
-A.iK().$1(J.u(o))
+o=A.V(l)
 n=J.u(o)
 v=new A.x(null,0,n,null,y.b)
 x=1
@@ -36,15 +35,14 @@ x=6
 break
 case 3:x=2
 break
-case 6:case 1:return A.f(v,w)
-case 2:return A.e(t,w)}})
-return A.h($async$jW,w)}},D
+case 6:case 1:return A.i(v,w)
+case 2:return A.h(t,w)}})
+return A.j($async$il,w)}}
 J=c[1]
 A=c[0]
 B=c[2]
-C=a.updateHolder(c[320],C)
-D=c[358]
+C=a.updateHolder(c[311],C)
 var z=a.updateTypes([])
-var y={b:A.H("x<w>"),e:A.H("@")}};
+var y={b:A.I("x<@>"),e:A.I("@")}};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_264",e:"endPart",h:b})})($__dart_deferred_initializers__,"uTbGwcyawMq92t/iFdkzaSQNKo8=");
+a.eventLog.push({p:"main.dart.js_264",e:"endPart",h:b})})($__dart_deferred_initializers__,"B8r4siN2IuzsCYJOu3gJVLf4fEc=");

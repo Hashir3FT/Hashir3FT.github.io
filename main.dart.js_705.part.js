@@ -1,9 +1,10 @@
 ((a,b,c)=>{a[b]=a[b]||{}
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_705",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
-$__dart_deferred_initializers__.current=function(a,b,c,$){var B,A={
-ev9(d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,a0,a1,a2,a3){return new A.q4(a3,a2,p,l,k,a0,n,x,g,e,a1,f,m,s,u,o,h,w,v,j,t,r,d,q,i)},
-q4:function q4(d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,a0,a1,a2,a3){var _=this
+$__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,C,D,B={
+eG7(d){var x=J.aK(d)
+return new B.pa(A.ft(x.i(d,"SlipNo")),A.ec(x.i(d,"SlipDate")),A.ft(x.i(d,"EmployeeID")),A.nN(x.i(d,"Amount")),A.ec(x.i(d,"Remarks")),A.ft(x.i(d,"CPVNo")),A.ec(x.i(d,"EmployeeName")),A.ec(x.i(d,"ShiftTitle")),A.ec(x.i(d,"DepartmentTitle")),A.ec(x.i(d,"DesignationTitle")),A.ec(x.i(d,"AccountNo")),A.ec(x.i(d,"SalaryMonth")),A.nN(x.i(d,"NetSalary")))},
+pa:function pa(d,e,f,g,h,i,j,k,l,m,n,o,p){var _=this
 _.a=d
 _.b=e
 _.c=f
@@ -16,65 +17,51 @@ _.x=l
 _.y=m
 _.z=n
 _.Q=o
-_.as=p
-_.at=q
-_.ax=r
-_.ay=s
-_.ch=t
-_.CW=u
-_.cx=v
-_.cy=w
-_.db=x
-_.dx=a0
-_.dy=a1
-_.fr=a2
-_.fx=a3}}
-B=c[0]
-A=a.updateHolder(c[218],A)
-A.q4.prototype={
-b6(){var x,w,v,u,t,s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d=this,a0=d.f
-if(a0==null)a0=" "
-x=d.a
-if(x==null)x=0
-w=d.b
-if(w==null)w=""
-v=d.z
-if(v==null)v=0
-u=d.y
-if(u==null)u=""
-t=d.d
-if(t==null)t=""
-s=d.Q
-if(s==null)s=0
-r=d.e
-if(r==null)r=""
-q=d.ch
-if(q==null)q=0
-p=d.ax
-if(p==null)p=""
-o=d.x
-if(o==null)o=""
-n=d.fx
-if(n==null)n=""
-m=d.CW
-if(m==null)m=0
-l=d.cx
-if(l==null)l=0
-k=d.dy
-if(k==null)k=0
-j=d.as
-if(j==null)j=""
-i=d.c
-h=d.dx
-g=d.db
-if(g==null)g=""
-f=d.r
-if(f==null)f=""
-e=d.w
-if(e==null)e=""
-return B.a8(["SlipNo",a0,"VoucherNo",x,"VoucherDate",w,"UserNo",v,"AccountNo",u,"IsBounced",d.ay===!0,"ChequeNo",t,"Amount",s,"ChequeDate",r,"BankPrevBal",q,"Narration",p,"BankAccountNo",o,"IsPosted",d.at===!0,"CashAccount",n,"OfficeID",m,"NewVoucherNo",l,"AccPrevBal",k,"DepositedBy",j,"IsCheque",i===!0,"IsFinalize",d.fr,"IsOnline",h===!0,"ManualNo",g,"DepositedDate",f,"ReconcileDate",e,"Cheque",d.cy===!0],y.g,y.b)}}
+_.as=p},
+WK(d){return B.eZ_(d)},
+eZ_(d){var x=0,w=A.k(y.o),v,u=2,t,s,r,q,p,o,n,m
+var $async$WK=A.l(function(e,f){if(e===1){t=f
+x=u}while(true)switch(x){case 0:u=4
+s=A.ad($.ah+"/Payroll/GetSalarySlipById?slipId="+d,0,null)
+x=7
+return A.d(D.cN(s,null),$async$WK)
+case 7:r=f
+if(r.b===200){o=r
+q=C.k.C(0,A.aS(J.A(A.aR(o.e).c.a,"charset")).ac(0,o.w),null)
+o=B.eG7(J.A(q,"data"))
+v=new A.x(o,1,null,null,y.o)
+x=1
+break}else{o=r
+o=A.X(C.k.C(0,A.aS(J.A(A.aR(o.e).c.a,"charset")).ac(0,o.w),null),y.g)
+v=o
+x=1
+break}u=2
+x=6
+break
+case 4:u=3
+m=t
+p=A.V(m)
+o=J.u(p)
+v=new A.x(null,0,o,null,y.o)
+x=1
+break
+x=6
+break
+case 3:x=2
+break
+case 6:case 1:return A.i(v,w)
+case 2:return A.h(t,w)}})
+return A.j($async$WK,w)}}
+J=c[1]
+A=c[0]
+C=c[2]
+D=c[355]
+B=a.updateHolder(c[241],B)
+B.pa.prototype={
+bb(){var x=this
+return A.a8(["SlipNo",x.a,"SlipDate",x.b,"EmployeeID",x.c,"Amount",x.d,"Remarks",x.e,"CPVNo",x.f,"EmployeeName",x.r,"ShiftTitle",x.w,"DepartmentTitle",x.x,"DesignationTitle",x.y,"AccountNo",x.z,"SalaryMonth",x.Q,"NetSalary",x.as],y.f,y.b)}}
 var z=a.updateTypes([]);(function inheritance(){var x=a.inherit
-x(A.q4,B.ag)})()
-var y={g:B.I("d"),b:B.I("@")}};
+x(B.pa,A.ag)})()
+var y={o:A.I("x<pa>"),g:A.I("pa"),f:A.I("e"),b:A.I("@")}};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_705",e:"endPart",h:b})})($__dart_deferred_initializers__,"dxG2HuBQY/mltklXlUjiV/IPLJ8=");
+a.eventLog.push({p:"main.dart.js_705",e:"endPart",h:b})})($__dart_deferred_initializers__,"CVSpmAIe/RPhBsTnwJ5F5jX29xg=");

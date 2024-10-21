@@ -1,67 +1,55 @@
 ((a,b,c)=>{a[b]=a[b]||{}
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_568",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
-$__dart_deferred_initializers__.current=function(a,b,c,$){var J,B,A={
-p9(d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3){return new A.eg(b3,p,a8,q,u,a2,g,h,e,a1,f,k,l,m,n,b0,b1,a0,d,a7,j,b2,a6,w,x,t,a9,a4,r,s,a3,v,a5,i,o)},
-eg:function eg(d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3){var _=this
-_.a=d
-_.b=e
-_.c=f
-_.d=g
-_.e=h
-_.f=i
-_.r=j
-_.w=k
-_.x=l
-_.y=m
-_.z=n
-_.Q=o
-_.as=p
-_.at=q
-_.ax=r
-_.ay=s
-_.ch=t
-_.CW=u
-_.cx=v
-_.cy=w
-_.db=x
-_.dx=a0
-_.dy=a1
-_.fr=a2
-_.fx=a3
-_.fy=a4
-_.go=a5
-_.id=a6
-_.k1=a7
-_.k2=a8
-_.k3=a9
-_.k4=b0
-_.ok=b1
-_.p1=b2
-_.p2=b3}}
+$__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,B,D,C={
+jt(d){return C.eXD(d)},
+eXD(d){var x=0,w=A.k(y.b),v,u=2,t,s,r,q,p,o,n,m,l
+var $async$jt=A.l(function(e,f){if(e===1){t=f
+x=u}while(true)switch(x){case 0:u=4
+s=A.aO("GET",A.ad($.ah+"/Accounts/GetChartOfAccountById?accountNo="+d,0,null))
+x=7
+return A.d(J.aQ(s),$async$jt)
+case 7:r=f
+x=8
+return A.d(B.E.am(r.w),$async$jt)
+case 8:q=f
+x=r.b===200?9:10
+break
+case 9:n=B.k.C(0,q,null)
+x=11
+return A.d(y.i.b(n)?n:A.bX(n,y.m),$async$jt)
+case 11:p=f
+n=D.tD(J.A(p,"data"))
+v=new A.x(n,1,null,null,y.b)
+x=1
+break
+case 10:n=A.X(B.k.C(0,q,null),y.n)
+v=n
+x=1
+break
+u=2
+x=6
+break
+case 4:u=3
+l=t
+o=A.V(l)
+n=J.u(o)
+v=new A.x(null,0,n,null,y.b)
+x=1
+break
+x=6
+break
+case 3:x=2
+break
+case 6:case 1:return A.i(v,w)
+case 2:return A.h(t,w)}})
+return A.j($async$jt,w)}}
 J=c[1]
-B=c[0]
-A=a.updateHolder(c[310],A)
-A.eg.prototype={
-b6(){var x,w,v,u,t,s,r,q=this,p=J.v(q.a),o=q.c
-o=o==null?null:o.nv()
-x=q.f
-x=x==null?null:x.nv()
-w=q.Q
-if(w==null)w=0
-v=q.at
-if(v==null)v=0
-u=q.ay
-if(u==null)u=0
-t=q.k4
-if(t==null)t=""
-s=q.p1
-s=s==null?null:s.nv()
-r=q.p2
-if(r==null)r=""
-return B.a8(["UserID",p,"EmployeeID",q.b,"ResignDate",o,"EmployeeName",q.d,"FatherName",q.e,"JoiningDate",x,"CNIC",q.r,"ContactNo",q.w,"Address",q.x,"IsSalesman",q.y,"BasicSalary",q.z,"DepartmentID",w,"DepartmentTitle",q.as,"DesignationID",v,"DesignationTitle",q.ax,"ShiftID",u,"ShiftTitle",q.ch,"InActive",q.CW,"AccountNo",q.cx,"RentAllowance",q.cy,"DearnessAllowance",q.db,"TransportAllowance",q.dx,"OtherAllowance",q.dy,"GrossSalary",q.fr,"ITax",q.fx,"EOBI",q.fy,"SESSI",q.go,"NETSalary",q.id,"EmployeeShare",q.k1,"EmployerShare",q.k2,"MinWages",q.k3,"FPData",t,"OffDay",q.ok,"DateOfBirth",s,"EmpPicture",r],y.g,y.b)}}
-var z=a.updateTypes([]);(function inheritance(){var x=a.inherit
-x(A.eg,B.ag)})()
-var y={g:B.I("d"),b:B.I("@")}};
+A=c[0]
+B=c[2]
+D=c[331]
+C=a.updateHolder(c[296],C)
+var z=a.updateTypes([])
+var y={b:A.I("x<aD>"),n:A.I("aD"),i:A.I("t<@>"),m:A.I("@")}};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_568",e:"endPart",h:b})})($__dart_deferred_initializers__,"v0xwUdRXkyYoZzXhJvf0ypUulEU=");
+a.eventLog.push({p:"main.dart.js_568",e:"endPart",h:b})})($__dart_deferred_initializers__,"JVpAdc5Ok5LTEaJYYjotcl6iSng=");

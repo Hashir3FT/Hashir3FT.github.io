@@ -1,55 +1,92 @@
 ((a,b,c)=>{a[b]=a[b]||{}
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_162",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
-$__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,B,D,C={
-nT(){var x=""
-return C.eWl()},
-eWl(){var x=0,w=A.i(y.o),v,u=2,t,s,r,q,p,o,n,m,l,k,j,i,h
-var $async$nT=A.j(function(d,e){if(d===1){t=e
-x=u}while(true)switch(x){case 0:i=""
+$__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,B,C={
+X5(d,e){var x=0
+return C.eZZ(d,e)},
+eZZ(d,e){var x=0,w=A.k(y.j),v,u=2,t,s,r,q,p,o,n,m,l,k,j
+var $async$X5=A.l(function(f,g){if(f===1){t=g
+x=u}while(true)switch(x){case 0:k=0
 u=4
-s=A.aN("GET",A.ad($.ah+"/Coding/GetPackings?search="+A.p(i),0,null))
-k=y.g
-r=A.a8(["Content-Type","application/json"],k,k)
+s=A.aO("POST",A.ad($.ah+"/Coding/InsertPacking?isOpen="+e+"&userId="+A.p(k),0,null))
+m=y.g
+r=A.a8(["Content-Type","application/json"],m,m)
 s.r.F(0,r)
+J.df(s,B.k.ct(d.bb(),null))
 x=7
-return A.c(J.aO(s),$async$nT)
-case 7:q=e
+return A.d(J.aQ(s),$async$X5)
+case 7:q=g
 x=8
-return A.c(B.E.ak(q.w),$async$nT)
-case 8:p=e
+return A.d(B.E.am(q.w),$async$X5)
+case 8:p=g
 if(q.b===200){o=B.k.C(0,p,null)
-n=A.b([],y.b)
-for(k=J.b_(J.A(o,"data"));k.N();){m=k.ga3(k)
-J.cd(n,D.exa(m))}v=new A.x(n,1,null,null,y.o)
+m=A.X(o,y.b)
+v=m
 x=1
-break}k=A.W(B.k.C(0,p,null),y.p)
-v=k
+break}m=A.X(B.k.C(0,p,null),y.b)
+v=m
 x=1
 break
 u=2
 x=6
 break
 case 4:u=3
-h=t
-l=A.V(h)
-k=J.v(l)
-v=new A.x(null,0,k,null,y.o)
+j=t
+n=A.V(j)
+m=J.u(n)
+v=new A.x(null,0,m,null,y.j)
 x=1
 break
 x=6
 break
 case 3:x=2
 break
-case 6:case 1:return A.f(v,w)
-case 2:return A.e(t,w)}})
-return A.h($async$nT,w)}}
+case 6:case 1:return A.i(v,w)
+case 2:return A.h(t,w)}})
+return A.j($async$X5,w)},
+Wn(){var x=0,w=A.k(y.j),v,u=2,t,s,r,q,p,o,n,m,l,k
+var $async$Wn=A.l(function(d,e){if(d===1){t=e
+x=u}while(true)switch(x){case 0:u=4
+s=A.aO("GET",A.ad($.ah+"/Coding/GetNextPackingId",0,null))
+m=y.g
+r=A.a8(["Content-Type","application/json"],m,m)
+s.r.F(0,r)
+x=7
+return A.d(J.aQ(s),$async$Wn)
+case 7:q=e
+x=8
+return A.d(B.E.am(q.w),$async$Wn)
+case 8:p=e
+if(q.b===200){o=B.k.C(0,p,null)
+m=J.A(o,"data")
+v=new A.x(m,1,null,null,y.j)
+x=1
+break}m=A.X(B.k.C(0,p,null),y.b)
+v=new A.x(null,0,m.d,null,y.j)
+x=1
+break
+u=2
+x=6
+break
+case 4:u=3
+k=t
+n=A.V(k)
+m=J.u(n)
+v=new A.x(null,0,m,null,y.j)
+x=1
+break
+x=6
+break
+case 3:x=2
+break
+case 6:case 1:return A.i(v,w)
+case 2:return A.h(t,w)}})
+return A.j($async$Wn,w)}}
 J=c[1]
 A=c[0]
 B=c[2]
-D=c[349]
-C=a.updateHolder(c[293],C)
+C=a.updateHolder(c[227],C)
 var z=a.updateTypes([])
-var y={o:A.I("x<q<cQ>>"),b:A.I("n<cQ>"),p:A.I("q<cQ>"),g:A.I("d")}};
+var y={j:A.I("x<@>"),g:A.I("e"),b:A.I("@")}};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_162",e:"endPart",h:b})})($__dart_deferred_initializers__,"VWgDmKerqAHD3OoEZK/BkLTVn+8=");
+a.eventLog.push({p:"main.dart.js_162",e:"endPart",h:b})})($__dart_deferred_initializers__,"/epN8huEdTUr98PuCpHTwDIg5o0=");
